@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product</title>
+    <style>
+        #navbar {
+            margin: 20px auto;
+            width: 100%;
+            height: 60px;
+            border: 2px solid black;
+        }
+
+        #navbar div {
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+
+        #left a {
+            text-decoration: none;
+            color: #111111;
+            padding-left: 20px;
+            margin: 20px auto;
+
+        }
+
+        #right button {
+            background-color: white;
+            border: none;
+        }
+
+        #right button img {
+            width: 20px;
+            height: 20px;
+            float: right;
+        }
+
+        #right {
+            margin: 20px auto;
+            float: right;
+        }
+
+        #logo {
+            display: block;
+            margin-left: 150%;
+        }
+
+        #category {
+            width: 70%;
+            margin-left: 15%;
+            text-align: center;
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 4%;
+            border: 1px solid black;
+        }
+
+        #direc {
+            border-bottom: 1px solid black;
+            background-color: gray;
+            width: 100%;
+            height: 40px;
+        }
+
+        #prodinfo #leftcont {
+            width: 38%;
+            border: 1px solid black;
+            height: 500px;
+            float: left;
+        }
+
+        #prodinfo #rightcont {
+            width: 58%;
+            border: 1px solid black;
+            height: 800px;
+            float: right;
+        }
+
+        #leftcont img,
+        #leftcont div {
+            float: right;
+            width: 60%;
+            height: 70%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="left">
+            <a href="#" class="navcont">All Stores</a>
+            <a href="#" class="navcont">Contact Us</a>
+            <a href="#" class="navcont">Category</a>
+        </div>
+        <div><img src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/sslogo.svg" id="logo" />
+        </div>
+        <div id="right">
+            <input type="search" placeholder="Search your product" />
+            <button type="button" onclick="location.href='wishlist.html'"><img
+                    src="https://static.thenounproject.com/png/1788381-200.png"></button>
+            <button type="button" onclick="location.href='cart.html'"><img
+                    src="https://static.thenounproject.com/png/4175872-200.png" /></button>
+            <button type="button" onclick="location.href='profile.html'"><img
+                    src="https://static.thenounproject.com/png/3465520-200.png" /></button>
+        </div>
+    </div>
+    <div id="category">
+        <p>BARGAINS</p>
+        <p>WOMEN</p>
+        <p>KIDS</p>
+        <p>BEAUTY</p>
+        <p>MEN</p>
+        <p>HOMESTOP</p>
+        <p>CROSSWORD</p>
+        <p>BRANDS</p>
+        <p>GIFTS</p>
+        <p>DISCOVER</p>
+    </div>
+    <div id="direc">
+    </div>
+    <div id="prodinfo">
+        <div id="leftcont">
+            <img
+                src="https://sslimages.shoppersstop.com/sys-master/images/hc8/h25/16755232210974/S21711BDJOG02_ICE.jpg_1088Wx1632H" />
+            <div>Click to zoom in the product</div>
+        </div>
+        <div id="rightcont">
+            <h3>LIFE</h3>;
+            <div>Solid Cotton Regular Fit Boys Jeans</div>
+            <p>Rs 809MRPRs899(10% Off)Includes all taxes</p>
+            <p>68 People Have Viewed This Product Recently!</p>
+            <p>1 OFFERS|
+                Buy any 1 of Select Kids Wear and Get 10% Off</p>
+            <div>select color
+                <img
+                    src="https://sslimages.shoppersstop.com/sys-master/images/hf8/h04/16754801016862/S21711BDJOG02_ICE_alt2.jpg_276Wx400H" />
+            </div>
+            <div id="forbutton">
+                <button type="button" id="sizebtn1">38</button>
+                <button type="button" id="sizebtn2">36</button>
+                <button type="button" id="sizebtn3">34</button>
+                <button type="button" id="sizebtn4">32</button>
+                <button type="button" id="sizebtn5">30</button>
+                <button type="button" id="sizebtn6">28</button>
+            </div>
+            <button type="button">add to cart</button>
+            <div id="deliveryadd">
+                <input type="pincode" id="deliverypin" />
+                <button type="button" id="deliverybtn">check</button>
+            </div>
+            <div id="delivery">
+                <div>COD might be available</div>
+                <div>click here to know our delhivery policy</div>
+            </div>
+            <hr />
+            <div id="delivery2">
+                <div>COD might be available</div>
+                <div>click here to know our delhivery policy</div>
+            </div>
+            <hr />
+            <div id="delivery">
+                <div>COD might be available</div>
+                <div>click here to know our delhivery policy</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+
+    function sizesele() {
+        let btnsize1 = document.getElementById('sizebtn1');
+        btnsize1.onclick = function () {
+            btnsize1.style.backgroundColor = "yellow";
+        }
+        let btnsize2 = document.getElementById('sizebtn2');
+        btnsize2.onclick = function () {
+            btnsize2.style.backgroundColor = "yellow";
+        }
+        let btnsize3 = document.getElementById('sizebtn3');
+        btnsize3.onclick = function () {
+            btnsize3.style.backgroundColor = "yellow";
+        }
+        let btnsize4 = document.getElementById('sizebtn4');
+        btnsize4.onclick = function () {
+            btnsize4.style.backgroundColor = "yellow";
+        }
+        let btnsize5 = document.getElementById('sizebtn5');
+        btnsize5.onclick = function () {
+            btnsize5.style.backgroundColor = "yellow";
+        }
+        let btnsize6 = document.getElementById('sizebtn6');
+        btnsize6.onclick = function () {
+            btnsize6.style.backgroundColor = "yellow";
+        }
+    }
+    sizesele();
+
+    function checkdelivery() {
+       
+        let btnD = document.getElementById('deliverybtn');
+        let deliveryP = document.getElementById('deliveryadd');
+
+        let div = document.createElement('div');
+        div.style.color = "red";
+
+
+        btnD.onclick = function () {
+            let pinD = document.getElementById('deliverypin').value;
+            if (pinD ==580001 || pinD ==510001) {
+                div.style.color = "green";
+                div.innerText = 'Standard Delivery within 5-7 days'
+            } else {
+                div.style.color = "red";
+                div.innerText = 'Sorry, Delivery option not available'
+            }
+        }
+
+        deliveryP.append(div);
+    }
+    checkdelivery();
+
+</script>
