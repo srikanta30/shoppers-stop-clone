@@ -1,0 +1,109 @@
+/* Styling for the category page. */
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+/*Global Styling*/
+
+* {
+  font-family: "PT Sans", sans-serif;
+}
+
+/*Breadcrumb Styling*/
+.breadcrumb {
+  background-color: #f9f9f9;
+  color: #999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
+}
+
+/*Middle Section Styling*/
+
+.middle_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/*Left Sidebar Styling*/
+
+.left_sidebar {
+  width: 30%;
+}
+
+/*Right Sidebar Styling*/
+
+.right_sidebar {
+  width: 70%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+h3 {
+  font-size: 14px;
+  color: #999;
+}
+
+#sorting {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 13px;
+  color: #666;
+}
+
+#sort_by {
+  color: black;
+  white-space: pre;
+}
+
+#sort_features {
+  display: flex;
+  align-items: center;
+  white-space: pre;
+}
+
+#discount:hover, #best_seller:hover, #popular:hover, #low:hover, #high:hover {
+    color: #ff5d3b;
+}
+
+.separator {
+  width: 98%;
+  height: 1px;
+  background-color: #999;
+}
+
+/*Products Styling*/
+
+#products {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 5%;
+  }
+
+  #products img {
+      width: 224px;
+      height: 336px;
+  }
+
+  #products div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2px;
+  }
+
+
