@@ -181,6 +181,16 @@ function showProducts() {
     
     myTshirts.forEach(function (product) {
 
+      let div = document.createElement("div");
+      let p_name = document.createElement("p");
+      p_name.innerText = product.name;
+      let p_price = document.createElement("p");
+      p_price.innerText = product.price;
+      let image = document.createElement("img");
+      image.src = product.images[0];
+      div.append(image, p_name, p_price);
+      productsDiv.append(div);
+    
     
     
   })
