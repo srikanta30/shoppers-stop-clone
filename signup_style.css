@@ -25,7 +25,7 @@ h5{
 }
 
 a{
-    color: #FF5722;
+    color: #ff5d3b;
 }
 
 p{
@@ -110,10 +110,25 @@ p{
     background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@082005240124#ts_) -297px -920px no-repeat;
 }
 
+.otpsent{
+    position: relative;
+    margin: 0 16px;
+    border-bottom: 2px solid #f8f8f8;
+    padding: 6px 0;
+}
 
-.sign-up-form .fullname input[type=text], .sign-up-form .email input[type=email], .sign-up-form .paswrd input[type=password]  {
+.otpsent::before{
+    content: "";
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@082005240124#ts_) -322px -948px no-repeat;
+    width: 24px;
+    height: 15px;
+    position: absolute;
+    left: 5px;
+    top: 18px;
+}
+.sign-up-form .fullname input[type=text], .sign-up-form .email input[type=email], .sign-up-form .paswrd input[type=password], .sign-up-form .otpsent input[type=password] {
     border: 1px solid white;
-    width: 100%;
+    width: 95%;
     height: 40px;
     outline: 0;
     font: 14px/21px PTSans-Regular;
@@ -122,11 +137,16 @@ p{
     margin: 0 0 10px;
 }
 
-.sign-up-form .fullname input[placeholder], .sign-up-form .email input[placeholder], .sign-up-form .paswrd input[placeholder],.sign-up-form .mobileno input[placeholder]{
+.sign-up-form .fullname input[placeholder], .sign-up-form .email input[placeholder], .sign-up-form .paswrd input[placeholder]{
     margin-left: 10px;
 } 
 
-
+.sign-up-form .mobileno input[placeholder]{
+    margin-left: 10px
+}
+.sign-up-form .otpsent input[placeholder]{
+    margin-left: 20px;
+}
 
 .sign-up-form .mobileno input[type=tel]{
     border: 1px solid white;
@@ -158,8 +178,74 @@ p{
 .continue{
     width: 100%;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNWQzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjJjNjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    color: white;
     height: 35px;
     border: none;
     border-radius: 5px;
 }
+
+.continue a{
+    color: white;
+    text-decoration: none;
+}
+
+.signinbtn{
+    width: 300px;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNWQzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjJjNjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.signinbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+div p{
+    width: 300px;
+    margin: 2% auto;
+    text-align: left;
+}
+
+div p a{
+    font-size: 15px;
+}
+
+a + a{
+    float: right;
+}
+
+#clearf{
+    clear: both;
+}
+
+hr{
+    width: 300px;
+    margin: 1% auto;
+}
+
+.newaccount{
+    width: 300px;
+    margin: 2% auto;
+    text-align: center;
+    font: 16px/26px PTSans-Bold;
+}
+
+.newaccount  a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signinemail{
+    
+    margin: 5% auto;
+    text-align: center;
+}
+
+.signinemail a {
+    text-decoration: none;
+    font: 17px/26px PTSans-Bold;
+}
+
