@@ -105,52 +105,51 @@ const tshirts = [
     },
     {
         id: "9",
-        name: "SPYKAR",
-        description: "Solid Cotton Slim Fit Mens T-Shirt",
+        name: "BEING HUMAN",
+        description: "Printed Cotton Regular Fit Mens T-Shirt",
         price: "999",
         discount: "30",
-        brand: "SPYKAR",
-        rating: "4.2",
-        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
-        color: "Coral",
-        images: ["","",""]
+        brand: "BEING HUMAN",
+        rating: "2.6",
+        sizes: ["LARGE", "MEDIUM", "SMALL"],
+        color: "Black",
+        images: ["https://sslimages.shoppersstop.com/sys-master/images/h70/hc8/16959799689246/S21BHTS21145BK_BLACK.jpg_230Wx334H","https://sslimages.shoppersstop.com/sys-master/images/h2e/hcf/16959799492638/S21BHTS21145BK_BLACK.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/h08/hfa/16958031659038/S21BHTS21145BK_BLACK_alt1.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/h08/hc7/16958663589918/S21BHTS21145BK_BLACK_alt2.jpg_1088Wx1632H"]
     },
     {
         id: "10",
-        name: "SPYKAR",
-        description: "Solid Cotton Slim Fit Mens T-Shirt",
-        price: "999",
-        discount: "30",
-        brand: "SPYKAR",
-        rating: "4.2",
-        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
-        color: "Coral",
-        images: ["","",""]
+        name: "DUKE",
+        description: "Solid Cotton Blend Slim Fit Mens T-Shirt",
+        price: "699",
+        discount: "40",
+        brand: "DUKE",
+        rating: "4.8",
+        sizes: ["LARGE", "MEDIUM", "X-LARGE", "XX-LARGE"],
+        color: "Brown",
+        images: ["https://sslimages.shoppersstop.com/sys-master/images/hfe/hc2/17021853827102/A21DKCT105BU_Brown.jpg_230Wx334H","https://sslimages.shoppersstop.com/sys-master/images/h8c/hd0/17021853433886/A21DKCT105BU_Brown.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/h91/h59/17026410774558/A21DKCT105BU_Brown_alt1.jpg_1088Wx1632H", "https://sslimages.shoppersstop.com/sys-master/images/h47/h49/17024220430366/A21DKCT105BU_Brown_alt2.jpg_1088Wx1632H"]
 
     },
     {
         id: "11",
-        name: "SPYKAR",
-        description: "Solid Cotton Slim Fit Mens T-Shirt",
-        price: "999",
+        name: "STOP",
+        description: "Striped Cotton Blend Regular Fit Mens T-Shirt",
+        price: "799",
         discount: "30",
-        brand: "SPYKAR",
-        rating: "4.2",
-        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
-        color: "Coral",
-        images: ["","",""]
+        brand: "STOP",
+        rating: "4.3",
+        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "XX-LARGE", "XXX-LARGE"],
+        color: "White",
+        images: ["https://sslimages.shoppersstop.com/sys-master/images/h6d/hb1/16461070270494/S21187STRPO09B_WHITE.jpg_230Wx334H","https://sslimages.shoppersstop.com/sys-master/images/h3d/hb8/16461070073886/S21187STRPO09B_WHITE.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/hb3/h8d/16462196801566/S21187STRPO09B_WHITE_alt1.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/he4/he7/16463643475998/S21187STRPO09B_WHITE_alt2.jpg_1088Wx1632H"]
     },
     {
         id: "12",
-        name: "SPYKAR",
-        description: "Solid Cotton Slim Fit Mens T-Shirt",
-        price: "999",
-        discount: "30",
-        brand: "SPYKAR",
-        rating: "4.2",
-        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
-        color: "Coral",
-        images: ["","",""]
-
+        name: "VAN HEUSEN",
+        description: "Stripes Cotton Regular Fit Mens T-Shirt",
+        price: "1699",
+        discount: "53",
+        brand: "VAN HEUSEN",
+        rating: "4.7",
+        sizes: ["LARGE", "MEDIUM", "X-LARGE", "XX-LARGE"],
+        color: "Navy",
+        images: ["https://sslimages.shoppersstop.com/sys-master/images/he8/he7/16180605452318/S21VHTSHWP08812_NAVY.jpg_230Wx334H","https://sslimages.shoppersstop.com/sys-master/images/h18/he1/16180605255710/S21VHTSHWP08812_NAVY.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/hf7/h3b/16180535820318/S21VHTSHWP08812_NAVY_alt1.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/ha4/h71/16181814657054/S21VHTSHWP08812_NAVY_alt2.jpg_1088Wx1632H"]
     }
 ]
