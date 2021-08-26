@@ -1,4 +1,4 @@
-//URL: https://www.shoppersstop.com/men-clothing-t-shirts-polos/c-A101010
+//Category Page URL: https://www.shoppersstop.com/men-clothing-t-shirts-polos/c-A101010
 
 //Product database to store in local storage:
 ​
@@ -153,3 +153,16 @@ const tshirts = [
         images: ["https://sslimages.shoppersstop.com/sys-master/images/he8/he7/16180605452318/S21VHTSHWP08812_NAVY.jpg_230Wx334H","https://sslimages.shoppersstop.com/sys-master/images/h18/he1/16180605255710/S21VHTSHWP08812_NAVY.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/hf7/h3b/16180535820318/S21VHTSHWP08812_NAVY_alt1.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/ha4/h71/16181814657054/S21VHTSHWP08812_NAVY_alt2.jpg_1088Wx1632H"]
     }
 ]
+
+//Database ends here.
+
+//Storing and parsing the data from local storage:
+
+const tshirts_json = JSON.stringify(tshirts);
+
+localStorage.setItem("myTshirts", tshirts_json);
+
+let myTshirts = localStorage.getItem("myTshirts");
+
+myTshirts = JSON.parse(myTshirts);
+
