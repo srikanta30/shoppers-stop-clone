@@ -524,6 +524,7 @@
             }
         });
     }
+<<<<<<< HEAD:sigleprod2.html
 
 
     var cart = [];
@@ -555,6 +556,42 @@
         localStorage.setItem("cart", JSON.stringify(cart));
 
     }
+=======
+    
+
+
+var cart=[];
+
+localStorage.setItem("cart",JSON.stringify(cart));
+
+
+let myTshirts = localStorage.getItem("myTshirts");
+
+    myTshirts = JSON.parse(myTshirts);
+
+     let crtbtn = document.getElementById("cartbtn");
+
+crtbtn.onclick = function() {
+    
+    let tshirts = undefined;
+
+    myTshirts.forEach(function (product, n) {
+
+        if (n == 0){
+          tshirts = product;
+        }
+      
+      
+    
+  })
+    
+    cart =JSON.parse( localStorage.getItem("cart"));
+
+    cart.push(tshirts)
+    localStorage.setItem("cart",JSON.stringify(cart));
+
+}
+>>>>>>> 694f411231b43a8d97f35547911ecc2add0e66a9:products/0.html
 
 
 

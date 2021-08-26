@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico"/>
     <title>Single Product 1</title>
     <style>
         * {
@@ -75,6 +76,9 @@
             width: 100%;
             height: 40px;
         }
+        #prodinfo{
+            height: 600px;
+        }
 
         #prodinfo #leftcont {
             width: 18%;
@@ -96,7 +100,7 @@
         }
 
         #proddescription {
-            height: 600px;
+            height: 58%;
         }
 
         #proddescription #leftcont {
@@ -174,7 +178,7 @@
             float: left;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 18px;
             overflow: scroll;
         }
 
@@ -183,8 +187,8 @@
         }
 
         #gallery img {
-            width: 40px;
-            height: 60px;
+            width: 50px;
+            height: 70px;
         }
 
         #forbutton button {
@@ -222,12 +226,21 @@
         #empty {
             margin-top: 10px;
         }
-        .content div{
-           width: 30%;
-           margin: auto;
-           display: inline-flex;
+
+        .content div {
+            width: 30%;
+            margin: auto;
+            display: inline-flex;
             flex-wrap: wrap;
             gap: 20px;
+        }
+
+        .tinycont {
+            margin-top: 15px;
+            width: 25%;
+            height: 30px;
+            font-size: 10px;
+            text-align: center;
         }
     </style>
 </head>
@@ -270,32 +283,37 @@
 
         <div id="leftcont">
             <ul id='gallery'>
+                <img style="border: 1px solid gray;border-radius: 4px;"
+                    src="https://sslimages.shoppersstop.com/sys-master/images/h5f/h81/16536303632414/S21T-01BA-040WH_WHITE.jpg_230Wx334H" />
                 <img
-                    src="https://sslimages.shoppersstop.com/sys-master/images/hb5/h68/16382984519710/S21183RNP456C_CORAL.jpg_230Wx334H" />
+                    src="https://sslimages.shoppersstop.com/sys-master/images/hcb/h4b/16536416583710/S21T-01BA-040WH_WHITE_alt1.jpg_230Wx334H" />
                 <img
-                    src="https://sslimages.shoppersstop.com/sys-master/images/he9/hfc/16383082102814/S21183RNP456C_CORAL_alt1.jpg_230Wx334H" />
+                    src="https://sslimages.shoppersstop.com/sys-master/images/h8c/hb5/16536891162654/S21T-01BA-040WH_WHITE_alt2.jpg_230Wx334H" />
                 <img
-                    src="https://sslimages.shoppersstop.com/sys-master/images/h32/hc9/16382969020446/S21183RNP456C_CORAL_alt2.jpg_230Wx334H" />
+                    src="https://sslimages.shoppersstop.com/sys-master/images/h3f/hb0/16536355078174/S21T-01BA-040WH_WHITE_alt3.jpg_230Wx334H" />
                 <img
-                    src="https://sslimages.shoppersstop.com/sys-master/images/h39/h37/16383006474270/S21183RNP456C_CORAL_alt3.jpg_230Wx334H" />
-                <img
-                    src="https://sslimages.shoppersstop.com/sys-master/images/h80/h11/16382983077918/S21183RNP456C_CORAL_alt4.jpg_230Wx334H" />
+                    src="https://sslimages.shoppersstop.com/sys-master/images/ha9/h99/16538505150494/S21T-01BA-040WH_WHITE_alt4.jpg_230Wx334H" />
             </ul>
             <div id="mainimg">
-                <img src="https://sslimages.shoppersstop.com/sys-master/images/hf8/h61/16382984323102/S21183RNP456C_CORAL.jpg_1088Wx1632H"
+                <img src="https://sslimages.shoppersstop.com/sys-master/images/h8f/h7a/16536303435806/S21T-01BA-040WH_WHITE.jpg_1088Wx1632H"
                     id="proimg" />
-                <div>Click to zoom in the product</div>
+                <div style="font-size:10px">Click to zoom in the product</div>
             </div>
         </div>
         <div id="proddescription">
             <div id="rightcont">
-                <h3 id="brandname">LIFE</h3>
+                <h3 id="brandname">SPYKAR</h3>
                 <div id="empty"></div>
-                <div id="prodspname">Solid Cotton Regular Fit Boys Jeans</div>
+                <div id="prodspname">Solid Cotton Slim Fit Mens T-Shirt</div>
                 <div id="empty"></div>
-                <p>Rs 809 MRPRs899(10% Off)Includes all taxes</p>
+                <p>Rs 809 <inline style="color: #777;">MRP</inline>
+                    <inline style="text-decoration: line-through;color: #777;">Rs899</inline>
+                    <inline style="color:rgb(245, 90, 90); ;"> (10% Off)</inline> Includes all taxes
+                </p>
                 <div id="empty"></div>
-                <p>68 People Have Viewed This Product Recently!</p>
+                <p style="color:#777">
+                    <inline style="font-size:28px;">220</inline> People Have Viewed This Product Recently!
+                </p>
                 <div id="empty"></div>
                 <div style="font-weight: bold;">1 OFFERS|<inline style="font-size: 12px;">Buy any 1 of <a
                             href="#">Select Mens Wear</a> and Flat 50% Off</inline>
@@ -307,14 +325,14 @@
                     <p>select color</p>
                     <div id="empty"></div>
                     <img id="colorimg"
-                        src="https://sslimages.shoppersstop.com/sys-master/images/h75/h7e/16382968954910/S21183RNP456C_CORAL_alt2.jpg_276Wx400H"
+                        src="https://sslimages.shoppersstop.com/sys-master/images/h4e/h7e/16536303566878/S21T-01BA-040WH_WHITE.jpg_276Wx400H"
                         style="width:50px;height:60px;float:left;border-radius: 5px;border: 1px solid gray;"
                         value="orange" />
                     <div id="empty"></div>
                 </div>
                 <div id="empty"></div>
                 <div id="forbutton">
-                    <div>select size</div>
+                    <div>SELECT SIZE</div>
                     <!-- <div id="empty"></div> -->
                     <button type="button" class="sizebtn">LARGE</button>
                     <button type="button" class="sizebtn">MEDIUM</button>
@@ -325,6 +343,26 @@
                 </div>
                 <div id="empty"></div>
                 <button type="button" id="cartbtn">ADD TO BAG</button>
+                <div style="display: flex;flex-direction:row;gap:5%;">
+                    <div class="tinycont">
+                        <inline><img src="https://image.flaticon.com/icons/png/512/4729/4729227.png"
+                                style="width: 30px;height:30px;" /></inline>100% Authentic products
+                    </div>
+                    <div class="tinycont">
+                        <inline><img
+                                src="https://img-premium.flaticon.com/png/512/3796/premium/3796180.png?token=exp=1629873728~hmac=9c0b888af08ab25c490a4e7cd38f9e77"
+                                style="width: 30px;height:30px;" /></inline>Free shipping
+                    </div>
+                    <div class="tinycont">
+                        <inline><img
+                                src="https://img-premium.flaticon.com/png/512/4114/premium/4114865.png?token=exp=1629873966~hmac=02c74d238ea471ddd26664d74bdd1826"
+                                style="width: 30px;height:30px;" /></inline>Express store pick-up
+                    </div>
+                </div>
+                <div id="empty"></div>
+                <h3>Delivery Services</h3>
+                <div id="empty"></div>
+                <div>Enter your Pincode to check the delivery time and free pick up options</div>
                 <div id="deliveryadd">
                     <input type="pincode" id="deliverypin" placeholder="Enter Pincode"
                         style="border:1px solid gray;height:40px;width:200px;background-color:rgb(240, 240, 240);border-radius: 5px;" />
@@ -344,8 +382,10 @@
                 </div>
                 <hr />
                 <div id="delivery3">
-                    <div>COD might be available</div>
-                    <div>click here to know our delhivery policy</div>
+                    <div>14 DAYS EASY RETURNS AND EXCHANGE</div>
+                    <div>We offer free and easy return to get 100% refund and exchange through courier pickup or you can
+                        exchange most items bought online at any of our stores. Click here for our Return and Exchange
+                        policy</div>
                 </div>
             </div>
         </div>
@@ -386,33 +426,34 @@
             </ul>
         </div>
         <div>
-            <div><h3>CARE INSTRUCTIONS</h3>Machine wash</div>
+            <div>
+                <h3>CARE INSTRUCTIONS</h3>Machine wash
+            </div>
             <div id="empty"></div>
-            <div><h3>DISCLAIMER:</h3><inline>Colors of the product might appear slightly different on digital devices.</inline></div>
+            <div>
+                <h3>DISCLAIMER:</h3>
+                <inline>Colors of the product might appear slightly different on digital devices.</inline>
+            </div>
         </div>
     </div>
     <hr />
     <button type="button" class="collapsible">STYLE NOTES<span>+</span></button>
     <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.</p>
+        <p>.</p>
     </div>
     <hr />
 
     <button type="button" class="collapsible">BRAND INFO<span>+</span></button>
     <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.</p>
+        <p>The Spykar story started way back in 1992, when Mr. Prasad Pabrekar led by ambition ventured into fashion
+            apparels and accessories to make use of his vast repertoire of technical knowledge in processing of denim
+            garments. You can reach out to Brand at: 022-42101900 or feedback@spyker.com.</p>
     </div>
     <hr />
 
     <button type="button" class="collapsible">REVIEWS & RATINGS<span>+</span></button>
     <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.</p>
+        <p><a href="#">Write a review</a></p>
     </div>
     <hr />
 
@@ -526,29 +567,61 @@
     }
 
 
+    // var cart = [];
+
+    // localStorage.setItem("cart", JSON.stringify(cart));
+
+
+    // let crtbtn = document.getElementById("cartbtn");
+
+    // crtbtn.onclick = function () {
+
+
+    //     let tshirts =
+    //     {
+    //         id: "1",
+    //         name: "LIFE",
+    //         description: "Printed Cotton Regular Fit Mens T-Shirt",
+    //         price: "599",
+    //         discount: "50",
+    //         brand: "LIFE",
+    //         rating: "4.5",
+    //         sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
+    //         color: "Coral",
+    //         images: ["https://sslimages.shoppersstop.com/sys-master/images/hf8/h61/16382984323102/S21183RNP456C_CORAL.jpg_1088Wx1632H", "https://sslimages.shoppersstop.com/sys-master/images/h9a/hb4/16383081906206/S21183RNP456C_CORAL_alt1.jpg_1088Wx1632H", "https://sslimages.shoppersstop.com/sys-master/images/hb6/h7a/16382968823838/S21183RNP456C_CORAL_alt2.jpg_1088Wx1632H"]
+    //     };
+    //     cart = JSON.parse(localStorage.getItem("cart"));
+
+    //     cart.push(tshirts)
+    //     localStorage.setItem("cart", JSON.stringify(cart));
+
+    // }
+
     var cart = [];
 
     localStorage.setItem("cart", JSON.stringify(cart));
 
 
+    let myTshirts = localStorage.getItem("myTshirts");
+
+    myTshirts = JSON.parse(myTshirts);
+
     let crtbtn = document.getElementById("cartbtn");
 
     crtbtn.onclick = function () {
 
+        let tshirts = undefined;
 
-        let tshirts =
-        {
-            id: "1",
-            name: "LIFE",
-            description: "Printed Cotton Regular Fit Mens T-Shirt",
-            price: "599",
-            discount: "50",
-            brand: "LIFE",
-            rating: "4.5",
-            sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
-            color: "Coral",
-            images: ["https://sslimages.shoppersstop.com/sys-master/images/hf8/h61/16382984323102/S21183RNP456C_CORAL.jpg_1088Wx1632H", "https://sslimages.shoppersstop.com/sys-master/images/h9a/hb4/16383081906206/S21183RNP456C_CORAL_alt1.jpg_1088Wx1632H", "https://sslimages.shoppersstop.com/sys-master/images/hb6/h7a/16382968823838/S21183RNP456C_CORAL_alt2.jpg_1088Wx1632H"]
-        };
+        myTshirts.forEach(function (product, n) {
+
+            if (n == 0) {
+                tshirts = product;
+            }
+
+
+
+        })
+
         cart = JSON.parse(localStorage.getItem("cart"));
 
         cart.push(tshirts)

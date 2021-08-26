@@ -172,26 +172,38 @@ myTshirts = JSON.parse(myTshirts);
 
 window.addEventListener('load',function(){
     showProducts();
+    changeCounter();
    
 })
 
 let productsDiv = document.getElementById("products");
-  
+let count = 0;
 function showProducts() {
     
-    myTshirts.forEach(function (product) {
+    myTshirts.forEach(function (product, n) {
 
       let div = document.createElement("div");
+      div.addEventListener("click", function(){
+        window.location.href = `products/${n}.html`;
+      })
       let p_name = document.createElement("p");
       p_name.innerText = product.name;
-      let p_price = document.createElement("p");
-      p_price.innerText = product.price;
+      let p_description = document.createElement("p");
+      p_description.innerText = product.description;
       let image = document.createElement("img");
       image.src = product.images[0];
-      div.append(image, p_name, p_price);
+      let p_price = document.createElement("p");
+      p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+      div.append(image, p_name, p_description, p_price);
       productsDiv.append(div);
+      count++
     
     
     
   })
+}
+
+function changeCounter(){
+    let h3 = document.getElementById("count");
+    h3.innerHTML = `(${count} ITEMS)`
 }

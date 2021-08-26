@@ -5,34 +5,35 @@ nav{
   position: fixed;
   background-color: white;
   margin-top: -100px;
-  margin-left: -5px;
+  margin-left: -0.25%;
 }
 .fa-store-alt{
     margin-top: 27px;
-    margin-left: 155px;
+    margin-left:7.75%;
     color: #616161;
     float: left;
     font-size: 17px;
     cursor: pointer;
-    
+    width: 1.5%;
 
 }
 .fa-id-badge{
 float: left;
 color: #616161;
 font-size: 23px;
-margin-left: 35px;
+margin-left: 1.75%;
 margin-top: 24px;
 cursor: pointer;
-
+width:1.5%;
 }
 .fa-sliders-h{
     float: left;
 color: #616161;
 font-size: 23px;
-margin-left: 35px;
+margin-left:1.75%;
 margin-top: 24px;
 cursor: pointer;
+width: 1.5%;
 }
 .fa-sliders-h:hover{
     font-size: 30px;
@@ -41,12 +42,12 @@ nav p{
     color: #616161;
     float: left;
     font-size: 20px;
-    margin-left: 12px;
+    margin-left: 0.6%;
     margin-top: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .heading{
-    width: 220px;
+    width: 11%;
     background-color: black;
     color: white;
     font-size: 32px;
@@ -55,23 +56,23 @@ nav p{
     float: left;
     height: 40px;
    margin-top: 12px;
-    margin-left: 300px;
+    margin-left: 15%;
     cursor: pointer;
 }
 nav input[type="search"]{
     float: left;
-    margin-left: 20px;
+    margin-left: 1%;
 font-size: 17px;
 border: none;
 border-radius: 30px;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-width: 350px;
+width: 17.5%;
 margin-top: 20px;
 color: #616161;
 }
 .fa-search{
     float: left;
-    margin-left: 7px;
+    margin-left: 0.35%;
     font-size: 24px;
     color: #616161;
 margin-top: 26px;
@@ -80,26 +81,26 @@ cursor: pointer;
 }
 .heart{
     float: left;
-    width: 60px;
+    width:3%;
     height: 60px;
      cursor: pointer;
-     margin-left: 15px;
+     margin-left: 0.75%;
   margin-top: 5px;
 }
 .suitcase{
     float: left;
-   width: 60px;
+   width: 3%;
    height: 60px;
     cursor: pointer;
-    margin-left: 5px;
+    margin-left: 0.25%;
  margin-top: 5px;
 }
 .circle{
     float: left;
-    width: 60px;
+    width: 3%;
     height: 60px;
      cursor: pointer;
-     margin-left: 5px;
+     margin-left: 0.25%;
   margin-top: 5px;
 }
 .clear{
@@ -121,15 +122,19 @@ h1+p{
 /*grid part*/
 #grid1,#grid2,#grid3,#grid4,#grid5{
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-gap: 100px;
-    margin-left: 300px;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-gap: 5%;
+    margin-left: 15%;
 margin-top: 100px;
+}
+#grid1 img,#grid2 img,#grid3 img,#grid4 img,#grid5 img{
+    width: 100%;
+    cursor: pointer;
 }
 /*grid part*/
 /*slider part*/
 .slider{
-    width:2000px;
+    width:100%;
     height: 500px;
 border-radius: 10px;
 margin-top: 100px;
@@ -147,26 +152,26 @@ margin-top: 100px;
     transition: 2s;
 }
 .slide img{
-    width: 2000px;
+    width: 100%;
     height: 500px;
 }
 .navigation-manual{
 position: absolute;
-width: 2000px;
+width: 100%;
 margin-top: -40px;
 display: flex;
 justify-content: center;
 }
 
 .manual-btn{
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
 .manual-btn:not(:last-child){
-    margin-right: 40px;
+    margin-right: 2%;
 }
 .manual-btn:hover{
     background: black;
@@ -186,7 +191,7 @@ justify-content: center;
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 2000px;
+    width: 100%;
     justify-content: center;
     margin-top: 460px;
 }
@@ -197,7 +202,7 @@ justify-content: center;
     transition: 1s;
 }
 .navigation-auto div:not(:last-child){
-    margin-right: 40px;
+    margin-right: 2%;
 }
 #radio1:checked~ .navigation-auto .auto-btn1{
     background: orange;

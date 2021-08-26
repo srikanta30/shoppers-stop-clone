@@ -89,14 +89,14 @@ h3 {
 /*Products Styling*/
 
 #products {
+    margin-top: 5%;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     grid-gap: 5%;
   }
 
   #products img {
-      width: 224px;
-      height: 336px;
+      width: 100%;
   }
 
   #products div {
@@ -105,5 +105,12 @@ h3 {
     align-items: center;
     margin-left: 2px;
   }
+
+  .rupee {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /*Header Styling*/
+  
 
 
