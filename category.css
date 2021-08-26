@@ -59,14 +59,21 @@ h3 {
 
 #sorting {
   display: flex;
+  align-items: center;
   font-size: 13px;
   line-height: 13px;
   color: #666;
 }
 
 #sort_by {
-    color: black !important;
-    margin-right: 5px;
+    color: black;
+    white-space: pre;
+}
+
+#sort_features {
+    display: flex;
+    align-items: center;
+    white-space: pre;
 }
 
 .separator {
