@@ -1,8 +1,11 @@
+/*Header part*/
 nav{
-    height: 40px;
+    height: 80px;
     width: 100%;
-  
-   
+  position: fixed;
+  background-color: white;
+  margin-top: -100px;
+  margin-left: -5px;
 }
 .fa-store-alt{
     margin-top: 27px;
@@ -53,6 +56,7 @@ nav p{
     height: 40px;
    margin-top: 12px;
     margin-left: 300px;
+    cursor: pointer;
 }
 nav input[type="search"]{
     float: left;
@@ -101,6 +105,8 @@ cursor: pointer;
 .clear{
     clear: both;
 }
+/*Header part*/
+/*line part*/
 h1{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -111,6 +117,8 @@ h1+p{
     color: #616161;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/*line part*/
+/*grid part*/
 #grid1,#grid2,#grid3,#grid4,#grid5{
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
@@ -118,12 +126,13 @@ h1+p{
     margin-left: 300px;
 margin-top: 100px;
 }
-
-
+/*grid part*/
+/*slider part*/
 .slider{
     width:2000px;
     height: 500px;
 border-radius: 10px;
+margin-top: 100px;
 }
 .slides{
     width: 500%;
@@ -202,16 +211,4 @@ justify-content: center;
 #radio4:checked~ .navigation-auto .auto-btn4{
     background: orange;
 }
-.last1 img{
-   width: 100px;
-    height: 40%;
-    margin: 10%;
-    float: left;
-    margin-top: 30px;
-}
-.last1 p{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #757575;
-    margin-top: 20px;
-}
+/*slider part*/

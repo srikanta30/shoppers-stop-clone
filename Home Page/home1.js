@@ -1,3 +1,4 @@
+//scrollbar
 var counter=1;
 setInterval(function(){
     document.getElementById('radio'+counter).checked=true;
@@ -6,7 +7,8 @@ setInterval(function(){
         counter=1;
     }
 },3000)
-
+//scrollbar
+//settimeout
 var i=0;
 var time=1500;
 var images=[];
@@ -24,3 +26,22 @@ function changeImg(){
     setTimeout("changeImg()",time);
 }
 window.onload=changeImg
+//settimeout
+//header
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+//header
