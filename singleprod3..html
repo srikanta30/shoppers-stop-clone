@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <title>Single Product 1</title>
+    <title>Single Product3</title>
     <style>
         * {
             font-family: 'Open Sans', sans-serif;
@@ -446,61 +446,24 @@
             }
         });
     }
-    
-// var cartarr = [];
 
-//     localStorage.setItem("cart",JSON.stringify(cartarr));
-    
-//     // let cart = localStorage.getItem('cart');
-//     // let cartd = JSON.parse(cart);
-
-    
-    
-//     let crtbtn = document.getElementById("cartbtn");
-
-//     crtbtn.onclick = function (p) {
-//         let image = document.getElementById("proimg").src;
-//         let imag = p.image
-//     let brand = document.getElementById("brandname").value;
-//     let bran = p.brand
-//     let colorimg = document.getElementById("colorimg").value;
-//     let colorim = p.colorimg
-//     let prod_sp_name = document.getElementById("prodspname").value;
-//     let prodim = p.prod_sp_name
-
-//     let div = document.createElement("div");
-
-//     div.append(imag, bran, colorim, prodim);
-//     // var ele = JSON.stringify(div);
-
-//         cartarr.push(div);
-//     }
-
-
-var cart=[];
-
-localStorage.setItem("cart",JSON.stringify(cart));
-
-
-     let crtbtn = document.getElementById("cartbtn");
+let crtbtn = document.getElementById("cartbtn");
 
 crtbtn.onclick = function() {
-
-
     let tshirts = 
     {   
-        id: "1",
-        name: "LIFE",
+        id: "25654",
+        name: "kuchbhiLIFE",
         description: "Printed Cotton Regular Fit Mens T-Shirt",
         price: "599",
-        discount: "50",
-        brand: "LIFE",
-        rating: "4.5",
-        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
+        discount: "50dvgdsfg",
+        brand: "LIFEgfdghfdgfd",
+        rating: "4.gdgg5",
+        sizes: ["LARGE", "MEDIUgfdgfgfdgrfdgdrfgM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
         color: "Coral",
         images: ["https://sslimages.shoppersstop.com/sys-master/images/hf8/h61/16382984323102/S21183RNP456C_CORAL.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/h9a/hb4/16383081906206/S21183RNP456C_CORAL_alt1.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/hb6/h7a/16382968823838/S21183RNP456C_CORAL_alt2.jpg_1088Wx1632H"]
     };
-    cart =JSON.parse( localStorage.getItem("cart"));
+   cart =JSON.parse( localStorage.getItem("cart"));
 
     cart.push(tshirts)
     localStorage.setItem("cart",JSON.stringify(cart));
