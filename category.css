@@ -1,2 +1,17 @@
 /* Styling for the category page. */
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/*Breadcrumb Styling*/
+.breadcrumb {
+    background-color: #F9F9F9;
+    color: #999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+}
