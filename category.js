@@ -156,6 +156,7 @@ const tshirts = [
 
 //Database ends here.
 
+
 //Storing and parsing the data from local storage:
 
 const tshirts_json = JSON.stringify(tshirts);
@@ -166,15 +167,21 @@ let myTshirts = localStorage.getItem("myTshirts");
 
 myTshirts = JSON.parse(myTshirts);
 
+
 //Showing the data on page:
+
+window.addEventListener('load',function(){
+    showProducts();
+   
+})
 
 let productsDiv = document.getElementById("products");
   
 function showProducts() {
     
     myTshirts.forEach(function (product) {
+
+    
     
   })
 }
-
-  showProducts();

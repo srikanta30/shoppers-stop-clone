@@ -1,17 +1,77 @@
 /* Styling for the category page. */
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+/*Global Styling*/
+
+* {
+  font-family: "PT Sans", sans-serif;
+}
 
 /*Breadcrumb Styling*/
 .breadcrumb {
-    background-color: #F9F9F9;
-    color: #999;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    margin-bottom: 10%;
-    font-size: 12px;
-    line-height: 18px;
-    font-family: 'PT Sans', sans-serif;
-    width: 100%;
+  background-color: #f9f9f9;
+  color: #999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
 }
+
+/*Middle Section Styling*/
+
+.middle_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/*Left Sidebar Styling*/
+
+.left_sidebar {
+  width: 30%;
+}
+
+/*Right Sidebar Styling*/
+
+.right_sidebar {
+  width: 70%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+h3 {
+    font-size: 14px;
+    color: #999;
+}
+
+#sorting {
+  display: flex;
+  font-size: 13px;
+  line-height: 13px;
+  color: #666;
+}
+
+#sort_by {
+    color: black !important;
+    margin-right: 5px;
+}
+
+.separator {
+  width: 98%;
+  height: 1px;
+  background-color: #999;
+}
+
