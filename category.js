@@ -1,7 +1,7 @@
 //Category Page URL: https://www.shoppersstop.com/men-clothing-t-shirts-polos/c-A101010
 
 //Product database to store in local storage:
-​
+
 const tshirts = [
     {   
         id: "1",
@@ -166,3 +166,15 @@ let myTshirts = localStorage.getItem("myTshirts");
 
 myTshirts = JSON.parse(myTshirts);
 
+//Showing the data on page:
+
+let productsDiv = document.getElementById("products");
+  
+function showProducts() {
+    
+    myTshirts.forEach(function (product) {
+    
+  })
+}
+
+  showProducts();
