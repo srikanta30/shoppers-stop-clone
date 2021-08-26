@@ -80,27 +80,27 @@ const tshirts = [
     },
     {
         id: "7",
-        name: "SPYKAR",
-        description: "Solid Cotton Slim Fit Mens T-Shirt",
-        price: "999",
-        discount: "30",
-        brand: "SPYKAR",
-        rating: "4.2",
-        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
-        color: "Coral",
-        images: ["https://sslimages.shoppersstop.com/sys-master/images/h1b/hb8/16313389482014/206890662_MID_BLUE.jpg_230Wx334H","","",""]
+        name: "ALLEN SOLLY",
+        description: "Solid Cotton Lycra Regular Fit Mens T-Shirt",
+        price: "1799",
+        discount: "45",
+        brand: "ALLEN SOLLY",
+        rating: "3.7",
+        sizes: ["LARGE", "MEDIUM", "SMALL"],
+        color: "Mid Blue",
+        images: ["https://sslimages.shoppersstop.com/sys-master/images/h1b/hb8/16313389482014/206890662_MID_BLUE.jpg_230Wx334H","https://sslimages.shoppersstop.com/sys-master/images/heb/hbe/16313389285406/206890662_MID_BLUE.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/he5/h51/16439285579806/206890662_MID_BLUE_alt1.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/h57/h8e/16408189796382/206890662_MID_BLUE_alt2.jpg_1088Wx1632H"]
     },
     {
         id: "8",
-        name: "SPYKAR",
-        description: "Solid Cotton Slim Fit Mens T-Shirt",
+        name: "JACK AND JONES",
+        description: "Mens Slim Fit Printed Round Neck T-Shirt",
         price: "999",
-        discount: "30",
-        brand: "SPYKAR",
-        rating: "4.2",
-        sizes: ["LARGE", "MEDIUM", "SMALL", "X-LARGE", "X-SMALL", "XX-LARGE"],
-        color: "Coral",
-        images: ["","",""]
+        discount: "50",
+        brand: "JACK AND JONES",
+        rating: "3.2",
+        sizes: ["LARGE", "SMALL", "XX-LARGE"],
+        color: "Yellow",
+        images: ["https://sslimages.shoppersstop.com/sys-master/images/h2a/h02/16054335799326/206690104_YELLOW.jpg_230Wx334H","https://sslimages.shoppersstop.com/sys-master/images/h66/h10/16054335340574/206690104_YELLOW.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/hc2/h8f/16054452060190/206690104_YELLOW_alt1.jpg_1088Wx1632H","https://sslimages.shoppersstop.com/sys-master/images/h6c/hce/16055388700702/206690104_YELLOW_alt2.jpg_1088Wx1632H"]
 
     },
     {
