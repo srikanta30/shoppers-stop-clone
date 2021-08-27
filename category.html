@@ -84,14 +84,7 @@
             <input type="checkbox" id="leecooper" value="LEE COOPER">
             <label for="leecooper">LEE COOPER</label><br>
             
-            <button
-              type="submit"
-              class="filterbutton"
-              id="brandfilter"
-              onclick="brandFilter()"
-            >
-              REFINE SEARCH
-            </button>
+            
           </div>
           <button type="button" class="collapsible">
             OFFERS<span>+</span>
@@ -103,57 +96,53 @@
             <label for="40">40% OFF</label><br>
             <input type="checkbox" id="50" value="50">
             <label for="50">50% OFF</label><br>
-            <button
-              type="submit"
-              class="filterbutton"
-              id="offerfilter"
-              onclick="offerFilter()"
-            >
-              REFINE SEARCH
-            </button>
           </div>
           <button type="button" class="collapsible">SIZE<span>+</span></button>
           <div class="content">
-            <input type="text" id="sizename" placeholder="Enter Size" />
-            <button
-              type="submit"
-              class="filterbutton"
-              id="sizefilter"
-              onclick="sizeFilter()"
-            >
-              REFINE SEARCH
-            </button>
+            <input type="checkbox" id="large" value="LARGE">
+            <label for="large">LARGE</label><br>
+            <input type="checkbox" id="small" value="SMALL">
+            <label for="small">SMALL</label><br>
+            <input type="checkbox" id="xlarge" value="X-LARGE">
+            <label for="xlarge">X-LARGE</label><br>
+            <input type="checkbox" id="xxlarge" value="XX-LARGE">
+            <label for="xxlarge">XX-LARGE</label><br>
+
+            
           </div>
           <button type="button" class="collapsible">
             COLORS<span>+</span>
           </button>
           <div class="content">
-            <input
-              type="text"
-              id="colorname"
-              placeholder="Enter Favourite Color"
-            />
-            <button
-              type="submit"
-              class="filterbutton"
-              id="colorfilter"
-              onclick="colorFilter()"
-            >
-              REFINE SEARCH
-            </button>
+            <span class="dot" id="blue"></span>
+            <input type="checkbox" id="blue" value="Blue">
+            
+            <label for="blue">Blue</label><br>
+            <span class="dot" id="black"></span>
+            <input type="checkbox" id="black" value="Black">
+            <label for="black">Black</label><br>
+            <span class="dot" id="yellow"></span>
+            <input type="checkbox" id="yellow" value="Yellow">
+            <label for="yellow">Yellow</label><br>
+            <span class="dot" id="brown"></span>
+            <input type="checkbox" id="brown" value="Brown">
+            <label for="brown">Brown</label><br>
+    
           </div>
           <button type="button" class="collapsible">PRICE<span>+</span></button>
           <div class="content">
-            <input type="text" id="pricename" placeholder="Enter Max. Price" />
-            <button
+            <input type="number" id="maxprice" placeholder="Enter Max Price in ₹" class="rupee"/>
+            <input type="number" id="minprice" placeholder="Enter Min Price in ₹" class="rupee"/>
+        
+          </div>
+          <button
               type="submit"
               class="filterbutton"
-              id="pricefilter"
-              onclick="priceFilter()"
+              id="brandfilter"
+              onclick="filterSearch()"
             >
               REFINE SEARCH
             </button>
-          </div>
         </div>
       </div>
 
