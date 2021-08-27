@@ -565,9 +565,11 @@
         });
     }
 
-    var cart = [];
+    if (localStorage.getItem("cart") === null){
+      
+      localStorage.setItem("cart", "[]");
+  }
 
-    localStorage.setItem("cart", JSON.stringify(cart));
 
 
     let myTshirts = localStorage.getItem("myTshirts");

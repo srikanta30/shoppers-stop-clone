@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico"/>
-    <title>LIFE Printed Cotton Regular Fit Mens T-Shirt</title>
+    <title>Solid Cotton Slim Fit Mens T-Shirt</title>
     <style>
         * {
             font-family: 'Open Sans', sans-serif;
@@ -295,7 +295,7 @@
                     src="https://sslimages.shoppersstop.com/sys-master/images/ha9/h99/16538505150494/S21T-01BA-040WH_WHITE_alt4.jpg_230Wx334H" />
             </ul>
             <div id="mainimg">
-                <img src="https://sslimages.shoppersstop.com/sys-master/images/h8f/h7a/16536303435806/S21T-01BA-040WH_WHITE.jpg_1088Wx1632H"
+                <img src="https://sslimages.shoppersstop.com/sys-master/images/h8f/h7a/16536303435806/S21T-01BA-040WH_WHITE.jpg_1088Wx1632H" 
                     id="proimg" />
                 <div style="font-size:10px">Click to zoom in the product</div>
             </div>
@@ -466,6 +466,7 @@
                 T-SHIRTS AND
                 POLOS</a></button>
     </div>
+   
     <div style="height: 150px; width: 100%; background-color: #f5f5f5">
         <img
           src="/img/f1.PNG"
@@ -600,9 +601,12 @@
 
     // }
 
-    var cart = [];
+    if (localStorage.getItem("cart") === null){
+      
+      localStorage.setItem("cart", "[]");
+  }
 
-    localStorage.setItem("cart", JSON.stringify(cart));
+
 
 
     let myTshirts = localStorage.getItem("myTshirts");
