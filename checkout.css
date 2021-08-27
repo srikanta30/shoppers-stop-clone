@@ -74,10 +74,10 @@ margin-left: 1%;
     background-color: white;
     margin: 1.25rem;
     font-size: 0.875rem;
-    font-weight: 900;
+  
     height: 40px;
     width: 10%;
-    font-weight: 70;
+   
     cursor: pointer;
    font-family: 'PTSans-Bold-400';
   margin-top: 10px;
@@ -126,12 +126,13 @@ margin-top: 15px;
     font-family: 'Open Sans-700', sans-serif;
 padding: 10px;
 float: left;
+color: #757575;
     }
     .div5 > h4{
         float: left;
-        margin-left: 35%;
+        margin-left: 20%;
         font-size: 24px;
         margin-bottom: 5px;
-    
+  color: #757575;
     }   
 /*make payment*/
