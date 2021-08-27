@@ -223,3 +223,125 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+// Sorting Functions:
+
+// Sort By Discount:
+
+function sortByDiscount(){
+    productsDiv.innerHTML = "";
+
+    myTshirts.sort((a, b) => {
+        return b.discount - a.discount;
+    })
+
+    myTshirts.forEach(function (product, n) {
+
+        let div = document.createElement("div");
+        div.addEventListener("click", function(){
+          window.location.href = `products/${product.id-1}.html`;
+        })
+        let p_name = document.createElement("p");
+        p_name.innerText = product.name;
+        let p_description = document.createElement("p");
+        p_description.innerText = product.description;
+        let image = document.createElement("img");
+        image.src = product.images[0];
+        let p_price = document.createElement("p");
+        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        div.append(image, p_name, p_description, p_price);
+        productsDiv.append(div);
+      
+    })
+    
+  }
+
+  //Sort By Rating:
+
+  function sortByRating(){
+    productsDiv.innerHTML = "";
+
+    myTshirts.sort((a, b) => {
+        return b.rating - a.rating;
+    })
+
+    myTshirts.forEach(function (product, n) {
+
+        let div = document.createElement("div");
+        div.addEventListener("click", function(){
+          window.location.href = `products/${product.id-1}.html`;
+        })
+        let p_name = document.createElement("p");
+        p_name.innerText = product.name;
+        let p_description = document.createElement("p");
+        p_description.innerText = product.description;
+        let image = document.createElement("img");
+        image.src = product.images[0];
+        let p_price = document.createElement("p");
+        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        div.append(image, p_name, p_description, p_price);
+        productsDiv.append(div);
+      
+    })
+    
+  }
+
+  //Sort By Pricing Low To High:
+
+  function sortByPriceLow(){
+    productsDiv.innerHTML = "";
+
+    myTshirts.sort((a, b) => {
+        return Math.round(a.price - (a.price * a.discount / 100)) - Math.round(b.price - (b.price * b.discount / 100));
+    })
+
+    myTshirts.forEach(function (product, n) {
+
+        let div = document.createElement("div");
+        div.addEventListener("click", function(){
+          window.location.href = `products/${product.id-1}.html`;
+        })
+        let p_name = document.createElement("p");
+        p_name.innerText = product.name;
+        let p_description = document.createElement("p");
+        p_description.innerText = product.description;
+        let image = document.createElement("img");
+        image.src = product.images[0];
+        let p_price = document.createElement("p");
+        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        div.append(image, p_name, p_description, p_price);
+        productsDiv.append(div);
+      
+    })
+    
+  }
+
+  //Sort By Pricing High To Low:
+
+  function sortByPriceHigh(){
+    productsDiv.innerHTML = "";
+
+    myTshirts.sort((a, b) => {
+        return Math.round(b.price - (b.price * b.discount / 100)) - Math.round(a.price - (a.price * a.discount / 100));
+    })
+
+    myTshirts.forEach(function (product, n) {
+
+        let div = document.createElement("div");
+        div.addEventListener("click", function(){
+          window.location.href = `products/${product.id-1}.html`;
+        })
+        let p_name = document.createElement("p");
+        p_name.innerText = product.name;
+        let p_description = document.createElement("p");
+        p_description.innerText = product.description;
+        let image = document.createElement("img");
+        image.src = product.images[0];
+        let p_price = document.createElement("p");
+        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        div.append(image, p_name, p_description, p_price);
+        productsDiv.append(div);
+      
+    })
+    
+  }

@@ -77,8 +77,7 @@ h3 {
 }
 
 #discount:hover,
-#best_seller:hover,
-#popular:hover,
+#rating:hover,
 #low:hover,
 #high:hover {
   color: #ff5d3b;

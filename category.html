@@ -166,17 +166,15 @@
         <div id="sorting">
           <p id="sort_by">Sort By:</p>
           <div id="sort_features">
-            <p id="discount">Discount</p>
-            <p>|</p>
-            <p id="best_seller">Best Seller</p>
-            <p>|</p>
-            <p id="popular">Popular</p>
-            <p>|</p>
+            <p id="discount" onclick="sortByDiscount()">Discount</p>
+            <p> | </p>
+            <p id="rating" onclick="sortByRating()">Rating</p>
+            <p> | </p>
             <p>Price</p>
-            <p>:</p>
-            <p id="low">Low</p>
-            <p>|</p>
-            <p id="high">High</p>
+            <p> : </p>
+            <p id="low" onclick="sortByPriceLow()">Low</p>
+            <p> | </p>
+            <p id="high" onclick="sortByPriceHigh()">High</p>
           </div>
         </div>
         <div class="separator"></div>
