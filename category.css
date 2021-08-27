@@ -106,10 +106,26 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  border: 1px solid lightgray;
 }
 
 .rupee {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.price {
+  display: inline !important;
+  align-items: center;
+}
+
+.discount {
+  color: #ff5d3b;
 }
 
 /*Left Sidebar*/
