@@ -134,5 +134,14 @@ color: #757575;
         font-size: 24px;
         margin-bottom: 5px;
   color: #757575;
+  margin-top: 20px;
     }   
+.div5 h5{
+    float: left;
+    margin-left: 2%;
+    font-size: 24px;
+    margin-bottom: 5px;
+color: #757575;
+margin-top: 20px;
+}
 /*make payment*/
