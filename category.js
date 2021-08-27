@@ -192,8 +192,15 @@ function showProducts() {
       p_description.innerText = product.description;
       let image = document.createElement("img");
       image.src = product.images[0];
+      image.addEventListener("mouseover", function(e){
+        e.target.src = product.images[2];
+    })
+    image.addEventListener("mouseout", function(e){
+        e.target.src = product.images[0];
+    })
+    
       let p_price = document.createElement("p");
-      p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+      p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
       div.append(image, p_name, p_description, p_price);
       productsDiv.append(div);
       count++
@@ -247,8 +254,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`;
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -277,8 +290,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -307,8 +326,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -337,8 +362,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -370,8 +401,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
         count++
@@ -388,11 +425,18 @@ function sortByDiscount(){
             p_description.innerText = product.description;
             let image = document.createElement("img");
             image.src = product.images[0];
+            image.addEventListener("mouseover", function(e){
+                e.target.src = product.images[2];
+            })
+            image.addEventListener("mouseout", function(e){
+                e.target.src = product.images[0];
+            })
             let p_price = document.createElement("p");
-            p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+            p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
             div.append(image, p_name, p_description, p_price);
             productsDiv.append(div);
             count++
+            
     }
 }}
     let h3 = document.getElementById("count");
@@ -409,3 +453,6 @@ function sortByDiscount(){
     }
     return false;
    }
+
+
+   
