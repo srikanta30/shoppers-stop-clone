@@ -184,7 +184,7 @@ function showProducts() {
 
       let div = document.createElement("div");
       div.addEventListener("click", function(){
-        window.location.href = `products/${n}.html`;
+        window.location.href = `products/${product.id-1}.html`;
       })
       let p_name = document.createElement("p");
       p_name.innerText = product.name;
@@ -192,8 +192,15 @@ function showProducts() {
       p_description.innerText = product.description;
       let image = document.createElement("img");
       image.src = product.images[0];
+      image.addEventListener("mouseover", function(e){
+        e.target.src = product.images[2];
+    })
+    image.addEventListener("mouseout", function(e){
+        e.target.src = product.images[0];
+    })
+    
       let p_price = document.createElement("p");
-      p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+      p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
       div.append(image, p_name, p_description, p_price);
       productsDiv.append(div);
       count++
@@ -247,8 +254,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`;
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -277,8 +290,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -307,8 +326,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -337,8 +362,14 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
+        })
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
       
@@ -350,13 +381,16 @@ function sortByDiscount(){
 
   //Brand Filter:
 
-  function brandFilter(){
+  function filterSearch(){
     let count = 0;
     productsDiv.innerHTML = "";
     let inputs = document.querySelectorAll("input[type='checkbox']");
+    let minPrice = document.getElementById("minprice").value;
+    let maxPrice = document.getElementById("maxprice").value;
     myTshirts.forEach(function (product, n) {
         for (let i = 0; i < inputs.length; i++){
-        if (inputs[i].checked == true  && product.brand == inputs[i].value){
+            if (minPrice != "" && maxPrice != ""){
+        if (inputs[i].checked == true  && (findSize(product.sizes, inputs[i].value) == true || product.brand == inputs[i].value || product.discount == inputs[i].value || product.color == inputs[i].value) && product.price >= minPrice && product.price <= maxPrice){
         let div = document.createElement("div");
         div.addEventListener("click", function(){
           window.location.href = `products/${product.id-1}.html`;
@@ -367,45 +401,58 @@ function sortByDiscount(){
         p_description.innerText = product.description;
         let image = document.createElement("img");
         image.src = product.images[0];
-        let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
-        div.append(image, p_name, p_description, p_price);
-        productsDiv.append(div);
-        count++
-    }}
-    let h3 = document.getElementById("count");
-    h3.innerHTML = `(${count} ITEMS)`
-    })
-    
-   }
-
-   //Offer Filter:
-
-   function offerFilter(){
-    let count = 0;
-    productsDiv.innerHTML = "";
-    let inputs = document.querySelectorAll("input[type='checkbox']");
-    myTshirts.forEach(function (product, n) {
-        for (let i = 0; i < inputs.length; i++){
-        if (inputs[i].checked == true  && product.discount == inputs[i].value){
-        let div = document.createElement("div");
-        div.addEventListener("click", function(){
-          window.location.href = `products/${product.id-1}.html`;
+        image.addEventListener("mouseover", function(e){
+            e.target.src = product.images[2];
         })
-        let p_name = document.createElement("p");
-        p_name.innerText = product.name;
-        let p_description = document.createElement("p");
-        p_description.innerText = product.description;
-        let image = document.createElement("img");
-        image.src = product.images[0];
+        image.addEventListener("mouseout", function(e){
+            e.target.src = product.images[0];
+        })
         let p_price = document.createElement("p");
-        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
         div.append(image, p_name, p_description, p_price);
         productsDiv.append(div);
         count++
     }}
+    else {
+        if (inputs[i].checked == true  && (findSize(product.sizes, inputs[i].value) == true ||product.brand == inputs[i].value || product.discount == inputs[i].value || product.color == inputs[i].value)){
+            let div = document.createElement("div");
+            div.addEventListener("click", function(){
+              window.location.href = `products/${product.id-1}.html`;
+            })
+            let p_name = document.createElement("p");
+            p_name.innerText = product.name;
+            let p_description = document.createElement("p");
+            p_description.innerText = product.description;
+            let image = document.createElement("img");
+            image.src = product.images[0];
+            image.addEventListener("mouseover", function(e){
+                e.target.src = product.images[2];
+            })
+            image.addEventListener("mouseout", function(e){
+                e.target.src = product.images[0];
+            })
+            let p_price = document.createElement("p");
+            p_price.innerHTML = `<div class="price rupee">₹ ${Math.round(product.price - (product.price * product.discount / 100))} <p class="strike">MRP ${product.price}</p></div> <p class="discount">(${product.discount}% OFF)</p>`
+            div.append(image, p_name, p_description, p_price);
+            productsDiv.append(div);
+            count++
+            
+    }
+}}
     let h3 = document.getElementById("count");
     h3.innerHTML = `(${count} ITEMS)`
     })
     
    }
+
+   function findSize(arr, input){
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i] == input){
+            return true;
+        }
+    }
+    return false;
+   }
+
+
+   
