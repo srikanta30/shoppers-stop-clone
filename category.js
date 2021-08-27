@@ -208,7 +208,7 @@ function changeCounter(){
     h3.innerHTML = `(${count} ITEMS)`
 }
 
-//Collapsible div:
+//Collapsible Div:
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
