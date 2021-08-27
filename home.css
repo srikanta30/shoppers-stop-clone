@@ -218,3 +218,20 @@ justify-content: center;
     background: orange;
 }
 /*slider part*/
+#main{
+    margin: 10px auto;
+    background-color:black;
+    color:white;
+    width:100%;
+    display: flex;
+}
+#main a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+#main ul{
+    margin-left: 3%;
+    line-height: 25px;
+
+}

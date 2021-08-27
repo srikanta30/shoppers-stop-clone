@@ -317,6 +317,25 @@ margin-top: 5px;
 .clear{
   clear: both;
 }
+#main{
+  margin: 10px auto;
+  background-color:black;
+  color:white;
+  width:100%;
+  display: flex;
+}
+#main a{
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+}
+#main ul{
+  margin-left: 3%;
+  line-height: 25px;
+  margin-top: 40px;
+  margin-bottom:50px;
+
+}
 
 
 
