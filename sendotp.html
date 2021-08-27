@@ -8,6 +8,12 @@
     <link rel="shortcut icon" type="image/jpg" href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico"/>
     <link rel="stylesheet" href="signup_style.css">
     <link rel="shortcut icon" type="image/jpg" href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico"/>
+<style>
+    #message {
+        color: red;
+    }
+</style>
+
 </head>
 <body>
     <header><img src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/sslogo.svg"/>
@@ -21,13 +27,12 @@
     <div class="sign-up-form">
         <div class="otpsent">
 
-            <input id="otp" name="otp" title="Enter valid OTP" placeholder="Enter OTP" type="password" class="txtinput number" mandatory="true" required value maxlength="6" autocomplete="off" aria-required="true">
+            <input type="password" id="inputotp" placeholder="Enter valid OTP" autocomplete="off" maxlength="6">
+            <p id="message"></p>
             
         </div>
-
-        <!-- please add here link of home page so that after clicked on continue it will go there -->
         
-        <button class="signinbtn"> <a href="">CONTINUE</a></button>
+        <button class="signinbtn" id="signinbutton"> <a href="">CONTINUE</a></button>
 
         <div class="signinemail"><a href="sign_in.html">Sign in with Email</a></div>
 
@@ -35,4 +40,4 @@
 </body>
 </html>
 <!--- Linking script/signup_in.js file --->
-<script src="signup_in.js"></script>
+<script src="sendotp.js"></script>

@@ -37,6 +37,3 @@ if (gender_select[i].checked){
     localStorage.setItem("myUsers", userdetails_json);
     window.location.href = "sendotp.html"
 })
-
-//Send To OTP Page:
-
