@@ -345,3 +345,67 @@ function sortByDiscount(){
     })
     
   }
+
+  //Filtering Functions:
+
+  //Brand Filter:
+
+  function brandFilter(){
+    let count = 0;
+    productsDiv.innerHTML = "";
+    let inputs = document.querySelectorAll("input[type='checkbox']");
+    myTshirts.forEach(function (product, n) {
+        for (let i = 0; i < inputs.length; i++){
+        if (inputs[i].checked == true  && product.brand == inputs[i].value){
+        let div = document.createElement("div");
+        div.addEventListener("click", function(){
+          window.location.href = `products/${product.id-1}.html`;
+        })
+        let p_name = document.createElement("p");
+        p_name.innerText = product.name;
+        let p_description = document.createElement("p");
+        p_description.innerText = product.description;
+        let image = document.createElement("img");
+        image.src = product.images[0];
+        let p_price = document.createElement("p");
+        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        div.append(image, p_name, p_description, p_price);
+        productsDiv.append(div);
+        count++
+    }}
+    let h3 = document.getElementById("count");
+    h3.innerHTML = `(${count} ITEMS)`
+    })
+    
+   }
+
+   //Offer Filter:
+
+   function offerFilter(){
+    let count = 0;
+    productsDiv.innerHTML = "";
+    let inputs = document.querySelectorAll("input[type='checkbox']");
+    myTshirts.forEach(function (product, n) {
+        for (let i = 0; i < inputs.length; i++){
+        if (inputs[i].checked == true  && product.discount == inputs[i].value){
+        let div = document.createElement("div");
+        div.addEventListener("click", function(){
+          window.location.href = `products/${product.id-1}.html`;
+        })
+        let p_name = document.createElement("p");
+        p_name.innerText = product.name;
+        let p_description = document.createElement("p");
+        p_description.innerText = product.description;
+        let image = document.createElement("img");
+        image.src = product.images[0];
+        let p_price = document.createElement("p");
+        p_price.innerHTML = `<div class="rupee">₹</div> ${Math.round(product.price - (product.price * product.discount / 100))} MRP ${product.price} <p class="discount">(${product.discount}% OFF)</p>`
+        div.append(image, p_name, p_description, p_price);
+        productsDiv.append(div);
+        count++
+    }}
+    let h3 = document.getElementById("count");
+    h3.innerHTML = `(${count} ITEMS)`
+    })
+    
+   }
