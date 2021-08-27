@@ -50,45 +50,82 @@
 <!--delivery-->
 
 <div class="div2">
-   
+    <i class="fas fa-check"></i>
     <p>hhh</p>
     <h3>2.DELIVERY METHOD</h3>
+    <button id="changebutton">CHANGE</button>
 </div>
+<div class="clear"></div>
 <!--Address-->
 <div style="border:1px solid #E0E0E0">
-<div class="div3">
-<button id="deliveryaddress" style="height: 100%;border: none;width: 30%;background-color: whitesmoke;cursor: pointer;font-size: 20px;margin-left: 2%;font-family: 'PTSans-bold-400';">Delivery address</button>
-<button id="expressstorepickup" style="height: 100%;border: none;width: 30%;background-color: #E0E0E0;cursor: pointer;font-size: 20px;font-family: 'PTSans-bold-400';">Express store pickup</button>
-</div>
-<div class="div4">
-    <h4 style="font-family: PTSans-Regular - 700;margin-left: 2%;font-size: 18px;">Add New Address</h4>
-<input id="firstname" type="text" placeholder="First Name" style="height: 25px;margin-left: 2%;width: 25%;"><input id="lastname" type="text" placeholder="Last Name" style="height: 25px;margin-left: 2%;width: 25%;">
-<br/>
-<input type="number" placeholder="+91" style="margin-left: 2%;margin-top: 20px;width: 5%;height: 25px;">
-<input id="phone" type="number" style="width: 45%;height: 25px;margin-left: 2%;margin-top: 20px;" placeholder="Phone Number">
-<br/>
-<input id="pin" type="text" placeholder="Pincode" style="margin-top: 20px;margin-left: 2%;width: 53%;height: 25px;">
-<br/>
-<input id="city" type="text" placeholder="CITY" style="height: 35px;margin-left: 2%;width: 25%;margin-top: 20px;background-color: #BDBDBD;"><input type="text" placeholder="STATE" style="height: 35px;margin-left: 2%;width: 25%;margin-top: 20px;background-color: #E0E0E0;">
-<br/>
-<input id="address1" type="text" placeholder="Address1" style="margin-top: 20px;margin-left: 2%;width: 53%;height: 25px;">
-<br/>
-<input id="address2" type="text" placeholder="Address2(optional)" style="margin-top: 20px;margin-left: 2%;width: 53%;height: 25px;">
-<br/>
-<input id="checkbox1" type="checkbox" style="margin-top: 30px;margin-left: 3%;float: left;"><p style="float: left;margin-top: 27px;margin-left: 2%;font-family: PTSans-Regular - 400;">Use this as my default delivery address</p>
-<br/>
-<div class="clear"></div>
-<input id="checkbox2" type="checkbox" style="margin-top: 30px;margin-left: 3%;float: left;"><p style="float: left;margin-top: 27px;margin-left: 2%;font-family: PTSans-Regular - 400;color: #FF8A65;">I agree to the terms and conditions</p>
-<button id="save" style="background-color: #FF1744;margin-left: 65%;color: white;border: none;border-radius: 5px;width: 20%;height: 60px;cursor: pointer;margin-top: 30px;"><a href="payment.html"> SAVE AND PROCEED </a></button>
-</div>
 <div class="clear"></div>
 </div>
 <!--Make payment-->
-<div class="div5">
+<div class="div6">
     <h3>3.MAKE PAYMENT</h3>
     <h4 id="total">Payable Amount:</h4>
 </div>
+<div style="clear: both;"></div>
+<div style="border:1px solid #E0E0E0;">
+<div style="text-align: left; margin-left: 10px;">Accepted Cards</div>
+<div class="imgpayment">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5lM2jljhx2ybbxBNeon5H5B49GvxV6uGAVsAOhIy312kOUQhQCJV7FWTMUTtXCJmc-Q&usqp=CAU" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Maestro_logo.svg/1200px-Maestro_logo.svg.png" />
+    <img src="https://logos-world.net/wp-content/uploads/2020/04/PayPal-Logo-2014-present.jpg" />
+</div>
+<!-- Card details -->
+<!-- Name -->
+<div class="carddetails">Name on the Card</div>
+<div class="detailsbox" id="boxdetail">
+    <input type="text" name="FullName" id="FullName" maxlength="75" title="Name on the Card" placeholder="Name on the Card">
+</div>
+
+<div class="carddetails">Card Number</div>
+<div class="detailsbox" id="boxdetail">
+    <input type="text" name="cardnumber" id="cardnumber" maxlength="16" title="Card number" placeholder="XXXX-XXXX-XXXX-XXXX">
+</div>
+
+<label for="months">Expiry month</label>
+
+<select name="months" id="months">
+  <option value="select">Select</option>
+  <option value="January">January</option>
+  <option value="February">February</option>
+  <option value="March">March</option>
+  <option value="April">April</option>
+  <option value="May">May</option>
+  <option value="June">June</option>
+  <option value="July">July</option>
+  <option value="August">August</option>
+  <option value="September">September</option>
+  <option value="October">October</option>
+  <option value="November">November</option>
+  <option value="December">December</option>
+</select>
+
+<label for="dates">Expiry year</label>
+<select name="dates" id="dates">
+
+<option value="select">Select</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
+</select>
+
+<div class="carddetails">CVV
+
+    <input type="password" name="CVV" id="CVV" maxlength="3" title="CVV" placeholder="XXX">
+
+</div>
+</div>
 <!--Make payment-->
+<!-- Checkout -->
+<button class="contcheckout"><a href="orderprocessing.html">Continue to Checkout </a></button>
 </div>
 <!--leftbigboxfinish-->
 <!--right big box start-->

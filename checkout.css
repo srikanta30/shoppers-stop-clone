@@ -82,6 +82,23 @@ margin-left: 1%;
    font-family: 'PTSans-Bold-400';
   margin-top: 10px;
 }
+
+.div2 button{
+    float: right;
+    border: none;
+    color: #FF3D00;
+    background-color: white;
+    margin: 1.25rem;
+    font-size: 0.875rem;
+    height: 40px;
+    width: 10%;
+   
+    cursor: pointer;
+   font-family: 'PTSans-Bold-400';
+  margin-top: 10px;
+}
+
+
 /*signin*/
 /*delivery*/
 .div2{
@@ -103,7 +120,7 @@ margin-bottom: 5px;
 /*buttons*/
 .div3{
 margin-top: 15px;
-    height: 50px;
+    height: 40px;
     border-radius: 2px;
 }
 /*buttons*/
@@ -122,11 +139,11 @@ margin-top: 15px;
     border-radius: 2px;
 }
 .div5 > h3{
-  margin-left: 7%;
+    margin-left: 7%;
     font-family: 'Open Sans-700', sans-serif;
-padding: 10px;
-float: left;
-color: #757575;
+    padding: 10px;
+    float: left;
+    color: #757575;
     }
     .div5 > h4{
         float: left;
@@ -136,3 +153,73 @@ color: #757575;
   color: #757575;
     }   
 /*make payment*/
+
+.div6{
+    margin-top: 30px;
+    background-color: #BDBDBD;
+    height: 70px;
+    border-radius: 2px;
+}
+.div6 > h3{
+    margin-left: 7%;
+    font-family: 'Open Sans-700', sans-serif;
+    padding: 10px;
+    float: left;
+    }
+    .div6 > h4{
+        float: left;
+        margin-left: 20%;
+        font-size: 24px;
+        margin-bottom: 5px;
+    } 
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .imgpayment{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .imgpayment img {
+        height: 20px;
+    }
+
+    .carddetails {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .detailsbox{
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .detailsbox input[type=text]{
+        width: 30%;
+        height: 20px;
+    }
+
+    label{
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .carddetails input {
+        margin-left: 20px;
+        width: 50px;
+        height: 20px;
+    }
+
+    .contcheckout{
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNWQzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjJjNjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        border: none;
+    }
