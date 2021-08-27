@@ -1,4 +1,10 @@
 /*heading1*/
+
+* {
+    font-family: "PT Sans", sans-serif;
+  }
+  
+  
 .heading{
     float: left;
     margin-left: 40%;

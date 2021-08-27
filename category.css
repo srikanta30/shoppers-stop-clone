@@ -81,6 +81,7 @@ h3 {
 #low:hover,
 #high:hover {
   color: #ff5d3b;
+  cursor: pointer;
 }
 
 .separator {
@@ -108,6 +109,7 @@ h3 {
   align-items: center;
   text-align: center;
   border: 1px solid lightgray;
+  cursor: pointer;
 }
 
 .rupee {
@@ -188,10 +190,10 @@ h3 {
 }
 
 .dot {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 #blue {
@@ -211,112 +213,112 @@ h3 {
 }
 
 /*Header Styling*/
-nav{
+nav {
   height: 80px;
   width: 100%;
-position: fixed;
-background-color: white;
-
+  position: fixed;
+  background-color: white;
 }
-.fa-store-alt{
+.fa-store-alt {
   margin-top: 27px;
-  margin-left:7.75%;
+  margin-left: 7.75%;
   color: #616161;
   float: left;
   font-size: 17px;
   cursor: pointer;
   width: 1.5%;
-
 }
-.fa-id-badge{
-float: left;
-color: #616161;
-font-size: 23px;
-margin-left: 1.75%;
-margin-top: 24px;
-cursor: pointer;
-width:1.5%;
-}
-.fa-sliders-h{
+.fa-id-badge {
   float: left;
-color: #616161;
-font-size: 23px;
-margin-left:1.75%;
-margin-top: 24px;
-cursor: pointer;
-width: 1.5%;
+  color: #616161;
+  font-size: 23px;
+  margin-left: 1.75%;
+  margin-top: 24px;
+  cursor: pointer;
+  width: 1.5%;
 }
-.fa-sliders-h:hover{
+.fa-sliders-h {
+  float: left;
+  color: #616161;
+  font-size: 23px;
+  margin-left: 1.75%;
+  margin-top: 24px;
+  cursor: pointer;
+  width: 1.5%;
+}
+.fa-sliders-h:hover {
   font-size: 30px;
 }
-nav p{
+nav p {
   color: #616161;
   float: left;
   font-size: 20px;
   margin-left: 0.6%;
   margin-top: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.heading{
+.heading {
   width: 11%;
   background-color: black;
   color: white;
   font-size: 32px;
   text-align: center;
-  font-family:Open Sans font;
+  font-family: Open Sans font;
   float: left;
   height: 40px;
- margin-top: 12px;
+  margin-top: 12px;
   margin-left: 15%;
   cursor: pointer;
 }
-nav input[type="search"]{
+nav input[type="search"] {
   float: left;
   margin-left: 1%;
-font-size: 17px;
-border: none;
-border-radius: 30px;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-width: 17.5%;
-margin-top: 20px;
-color: #616161;
+  font-size: 17px;
+  border: none;
+  border-radius: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 17.5%;
+  margin-top: 20px;
+  color: #616161;
 }
-.fa-search{
+.fa-search {
   float: left;
   margin-left: 0.35%;
   font-size: 24px;
   color: #616161;
-margin-top: 26px;
-cursor: pointer;
-
-}
-.heart{
-  float: left;
-  width:3%;
-  height: 60px;
-   cursor: pointer;
-   margin-left: 0.75%;
-margin-top: 5px;
-}
-.suitcase{
-  float: left;
- width: 3%;
- height: 60px;
+  margin-top: 26px;
   cursor: pointer;
-  margin-left: 0.25%;
-margin-top: 5px;
 }
-.circle{
+.heart {
   float: left;
   width: 3%;
   height: 60px;
-   cursor: pointer;
-   margin-left: 0.25%;
-margin-top: 5px;
+  cursor: pointer;
+  margin-left: 0.75%;
+  margin-top: 5px;
 }
-.clear{
+.suitcase {
+  float: left;
+  width: 3%;
+  height: 60px;
+  cursor: pointer;
+  margin-left: 0.25%;
+  margin-top: 5px;
+}
+.circle {
+  float: left;
+  width: 3%;
+  height: 60px;
+  cursor: pointer;
+  margin-left: 0.25%;
+  margin-top: 5px;
+}
+.clear {
   clear: both;
 }
+<<<<<<< HEAD
 #main{
   margin: 10px auto;
   background-color:black;
@@ -339,3 +341,5 @@ margin-top: 5px;
 
 
 
+=======
+>>>>>>> df4db69c91a122dabcd50a8104a92c4dbe9b2f70
