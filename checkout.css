@@ -50,6 +50,7 @@ margin-left: 1%;
     background-color: #BDBDBD;
     height: 70px;
     border-radius: 2px;
+    margin-bottom: 20px;
 }
 .fa-check{
     color: green;
@@ -83,20 +84,6 @@ margin-left: 1%;
   margin-top: 10px;
 }
 
-.div2 button{
-    float: right;
-    border: none;
-    color: #FF3D00;
-    background-color: white;
-    margin: 1.25rem;
-    font-size: 0.875rem;
-    height: 40px;
-    width: 10%;
-   
-    cursor: pointer;
-   font-family: 'PTSans-Bold-400';
-  margin-top: 10px;
-}
 
 
 /*signin*/
