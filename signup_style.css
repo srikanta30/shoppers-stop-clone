@@ -29,10 +29,10 @@ h5 {
 }
 
 h4 {
-  font: 600 16px/28px Open Sans;
+  font: 600 16px/28px "PT Sans";
 }
 h5 {
-  font: 14px/17px Open Sans;
+  font: 14px/17px "PT Sans";
   text-transform: none;
 }
 .account,
@@ -41,7 +41,8 @@ p {
   text-align: center;
   margin: auto;
   margin-top: 2%;
-  font: 16px/26px PTSans-Bold;
+  font: 16px/26px "PT Sans";
+  font-weight: bold;
 }
 
 a {
@@ -49,7 +50,7 @@ a {
 }
 
 p {
-  font: 12px/21px PTSans-Regular !important;
+  font: 12px/21px "PT Sans" !important;
 }
 .sign-up-form {
   width: 300px;
@@ -157,7 +158,7 @@ p {
   width: 95%;
   height: 40px;
   outline: 0;
-  font: 14px/21px PTSans-Regular;
+  font: 14px/21px "PT Sans";
   color: #333;
   padding: 0 12px;
   margin: 0 0 10px;
@@ -258,7 +259,8 @@ hr {
   width: 300px;
   margin: 2% auto;
   text-align: center;
-  font: 16px/26px PTSans-Bold;
+  font: 16px/26px "PT Sans";
+  font-weight: bold;
 }
 
 .newaccount a {
@@ -273,5 +275,11 @@ hr {
 
 .signinemail a {
   text-decoration: none;
-  font: 17px/26px PTSans-Bold;
+  font: 17px/26px "PT Sans";
+  font-weight: bold;
+}
+
+.row {
+    display: flex;
+    white-space: pre;
 }
