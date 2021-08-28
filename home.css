@@ -282,4 +282,30 @@ margin-bottom: 150px;
     width: 100%;
     cursor: pointer;
 }
+#grid7{
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    grid-gap: 3%;
+   grid-template-rows: 50% 50%;
+margin-top: 100px;
+margin-bottom: 150px;
+margin-left: 8%;
+}
+#grid7 img{
+    width: 100%;
+    cursor: pointer;
+}
+#grid8{
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    grid-gap: 3%;
+   grid-template-rows: 50% 50%;
+margin-top: 100px;
+margin-bottom: 150px;
+margin-left: 8%;
+}
+#grid8 img{
+    width: 100%;
+    cursor: pointer;
+}
 /*grid part*/
