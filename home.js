@@ -8,6 +8,7 @@ setInterval(function(){
     }
 },3000)
 //scrollbar
+
 //settimeout
 var i=0;
 var time=1500;
@@ -45,3 +46,15 @@ function myFunction() {
   }
 }
 //header
+
+
+//scrollbar
+var counterr=1;
+setInterval(function(){
+    document.getElementById('cadio'+counterr).checked=true;
+    counterr++;
+    if(counterr>4){
+        counterr=1;
+    }
+},3000)
+//scrollbar
