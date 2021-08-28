@@ -64,6 +64,7 @@ header {
   /*Middle Section Styling*/
   section {
 min-height: 300px;
+margin-bottom: 15%;
   }
 
   section > h2 {
@@ -79,6 +80,74 @@ min-height: 300px;
       cursor: pointer;
   }
 
-  #centerbutton {
+  .centerbutton {
       text-align: center;
+  }
+
+  #shoppingbag {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #products {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 5%;
+  }
+  
+  #products img {
+    width: 100%;
+  }
+  
+  #products div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid lightgray;
+    cursor: pointer;
+  }
+  
+  .rupee {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .price {
+    display: inline !important;
+    align-items: center;
+  }
+  
+  .discount {
+    color: #ff5d3b;
+  }
+
+  #products button{
+    padding: 15px 45px 15px 45px;
+    background-color: white;
+    color: #ff5d3b;
+    border: 1px solid #ff5d3b;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  #checkout {
+    padding: 15px 45px 15px 45px;
+    background-color: white;
+    color: #ff5d3b;
+    border: 1px solid #ff5d3b;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  #checkoutbutton {
+      margin-top: 50px;
   }

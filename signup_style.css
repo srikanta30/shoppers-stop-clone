@@ -34,6 +34,7 @@ h4 {
 h5 {
   font: 14px/17px "PT Sans";
   text-transform: none;
+  margin-top: 1% !important;
 }
 .account,
 p {
@@ -282,4 +283,50 @@ hr {
 .row {
     display: flex;
     white-space: pre;
+}
+
+.social{
+  width: 300px;;
+  padding: 20px;
+  margin: 3% auto 0;
+}
+
+.fb{
+  width: 80px ;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;  
+  float: left;
+  margin-left: 50px;
+}
+
+.fb img{
+  margin-left: 30px;
+  height: 20px;
+  width: 20px;
+}
+
+.gogle {
+  width: 80px ;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  float: right;
+  margin-right: 50px;
+}
+
+.gogle img{
+  margin-left: 30px;
+  height: 20px;
+  width: 20px;
+  
+}
+
+.loginsocial {
+  width: 200px;
+  text-align: center;
+  margin: -1.75% auto;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;  
+  border-radius: 50%;
+  font-size: 15px;
+
 }
