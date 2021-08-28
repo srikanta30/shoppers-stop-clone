@@ -1,3 +1,13 @@
+window.addEventListener('load', function () {
+  let count = JSON.parse(localStorage.getItem('cart')).length;
+  let notify = document.getElementById('lblCartCount');
+  notify.innerText = count;
+
+  let countw = JSON.parse(localStorage.getItem('wishlist')).length;
+  let notifyw = document.getElementById('lblwishlistCount');
+  notifyw.innerText = countw;
+
+})
 //scrollbar
 var counter=1;
 setInterval(function(){

@@ -16,36 +16,33 @@
   </head>
   <body>
     <!--Header part start-->
-    <nav id="myHeader">
-      <i class="fas fa-store-alt"></i>
-      <p>All Stores</p>
-      <i class="fas fa-id-badge"></i>
-      <p>Contact Us</p>
-      <i class="fas fa-sliders-h"></i>
-      <p onclick="location.href='category.html'" style="cursor: pointer;">Category</p>
-      <img
-        class="heading" onclick="location.href='home.html'" style="cursor: pointer;"
-        src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/sslogo.svg"
-      />
-      <input type="search" placeholder="Search products & brands" />
-      <i class="fas fa-search"></i>
-      <img
-        class="heart"
-        src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/iconwishlist.png"
-      />
-      <img
-        class="suitcase"
-        src="https://www.shoppersstop.com/_ui/responsive/common/assets/images/iconaddtobag.png"
-      />
-      <img
-        class="circle"
-        src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/iconuser.png"
-      />
-    </nav>
-    <div class="clear"></div>
+    <div id="navbar">
+      <div id="left">
+          <a href="#" class="navcont">All Stores</a>
+          <a href="#" class="navcont">Contact Us</a>
+          <a href="#" class="navcont" onclick="location.href='category.html'">Category</a>
+      </div>
+      <div><img src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/sslogo.svg" id="logo" onclick="location.href='home.html'"  />
+      </div>
+      <div id="right">
+          <input type="search" placeholder="Search your product" />
+          <div>
+              <button type="button" onclick="location.href='../wishlist.html'"><img
+                      src="https://static.thenounproject.com/png/1788381-200.png"></button>
+              <span class='badgew badge-warningw' id='lblwishlistCount'> </span>
+          </div>
+          <div>
+              <button type="button" onclick="location.href='../cart.html'"><img
+                      src="https://static.thenounproject.com/png/4175872-200.png" /></button>
+              <span class='badge badge-warning' id='lblCartCount'> </span>
+          </div>
+          <button type="button" onclick="location.href='../profile.html'"><img
+                  src="https://static.thenounproject.com/png/3465520-200.png" /></button>
+      </div>
+  </div>
     <!-- Header part end-->
     <!--Slideshow part start-->
-    <div class="slider">
+    <div class="slider" style="margin-top: 0px;padding-top: 100px;">
       <div class="slides">
         <input type="radio" name="radio-btn" id="radio1" />
         <input type="radio" name="radio-btn" id="radio2" />

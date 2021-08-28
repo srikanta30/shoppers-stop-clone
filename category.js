@@ -1,6 +1,16 @@
 //Category Page URL: https://www.shoppersstop.com/men-clothing-t-shirts-polos/c-A101010
 
 //Product database to store in local storage:
+window.addEventListener('load', function () {
+    let count = JSON.parse(localStorage.getItem('cart')).length;
+    let notify = document.getElementById('lblCartCount');
+    notify.innerText = count;
+  
+    let countw = JSON.parse(localStorage.getItem('wishlist')).length;
+    let notifyw = document.getElementById('lblwishlistCount');
+    notifyw.innerText = countw;
+  
+  })
 
 const tshirts = [
     {   
