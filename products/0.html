@@ -49,7 +49,7 @@
         <p>DISCOVER</p>
     </div>
     <div id="direc">
-        Home > Men > Clothing > T-Shirts & Polos > LIFE Printed Cotton Regular Fit Mens T-Shirt
+        Home > Men > Clothing > T-Shirts & Polos > SPYKAR Solid Cotton Slim Fit Mens T-Shirt
     </div>
     <div id="prodinfo">
 
@@ -316,6 +316,12 @@
 
 </html>
 <script>
+    window.addEventListener('load', function() {
+        let count = JSON.parse(localStorage.getItem('cart')).length;
+        let notify = document.getElementById('lblCartCount');
+        notify.innerText = count;
+        
+     })
 
     var sizebtn = document.getElementsByClassName("sizebtn");
     var btnid = document.getElementById('forbutton')
@@ -423,7 +429,7 @@
     myTshirts = JSON.parse(myTshirts);
 
     let crtbtn = document.getElementById("cartbtn");
-
+   
     crtbtn.onclick = function () {
         let count = JSON.parse(localStorage.getItem('cart')).length;
         let tshirts = undefined;

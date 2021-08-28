@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg"
         href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico" />
-    <title>LEE COOPER Solid Cotton Slim Fit Mens T-Shirt | Shoppersstop.com</title>
+    <title>LEE COOPER Printed Cotton Regular Fit Mens T-Shirt | Shoppersstop.com</title>
     <link href="singleprod.css" rel="stylesheet">
 
 </head>
@@ -48,7 +48,7 @@
         <p>DISCOVER</p>
     </div>
     <div id="direc">
-        Home > Men > Clothing > T-Shirts & Polos > LEE COOPER Solid Cotton Slim Fit Mens T-Shirt
+        Home > Men > Clothing > T-Shirts & Polos > LEE COOPER Printed Cotton Regular Fit Mens T-Shirt
     </div>
     <div id="prodinfo">
 
@@ -313,6 +313,12 @@
 
 </html>
 <script>
+    window.addEventListener('load', function() {
+        let count = JSON.parse(localStorage.getItem('cart')).length;
+        let notify = document.getElementById('lblCartCount');
+        notify.innerText = count;
+        
+     })
 
     var sizebtn = document.getElementsByClassName("sizebtn");
     var btnid = document.getElementById('forbutton')

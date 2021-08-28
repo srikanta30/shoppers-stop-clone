@@ -78,7 +78,7 @@
             <div id="rightcont">
                 <h3 id="brandname">BEING HUMAN</h3>
                 <div id="empty"></div>
-                <div id="prodspname">Printed Lycra Regular Fit Mens T-Shirt</div>
+                <div id="prodspname">Solid Cotton Slim Fit Mens T-Shirt</div>
                 <div id="empty"></div>
                 <p>Rs 699 <inline style="color: #777;">MRP</inline>
                     <inline style="text-decoration: line-through;color: #777;">Rs999</inline>
@@ -313,6 +313,12 @@
 
 </html>
 <script>
+    window.addEventListener('load', function() {
+        let count = JSON.parse(localStorage.getItem('cart')).length;
+        let notify = document.getElementById('lblCartCount');
+        notify.innerText = count;
+        
+     })
 
     var sizebtn = document.getElementsByClassName("sizebtn");
     var btnid = document.getElementById('forbutton')

@@ -314,6 +314,12 @@
 
 </html>
 <script>
+    window.addEventListener('load', function() {
+        let count = JSON.parse(localStorage.getItem('cart')).length;
+        let notify = document.getElementById('lblCartCount');
+        notify.innerText = count;
+        
+     })
 
     var sizebtn = document.getElementsByClassName("sizebtn");
     var btnid = document.getElementById('forbutton')
