@@ -308,4 +308,17 @@ margin-left: 8%;
     width: 100%;
     cursor: pointer;
 }
+#grid9{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-gap: 2%;
+  
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+#grid9 img{
+    width: 100%;
+    cursor: pointer;
+}
 /*grid part*/
