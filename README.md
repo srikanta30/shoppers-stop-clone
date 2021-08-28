@@ -22,6 +22,7 @@
 - `Sign-Up Page`
 - `Sign-In Page`
 - `Forgot Password Page`
+- `Sign-In with OTP Page`
 - `Category Page`
 - `Products Page`
 - `Payment Page`
