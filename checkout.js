@@ -1,14 +1,17 @@
 var save=document.getElementById("save");
 var promo=document.getElementById("promo").value;
-var total=document.getElementById("total").value;
+var totall=document.getElementById("subtotal").textContent;
+var total=+(totall)
 var promobtn=document.getElementById("applypromo");
 var  coupdiscount=document.getElementById("coupen");
 var payamount=document.getElementById("payableamount");
 var savedamount=document.getElementById("savedd");
 var subtotal=document.getElementById("subtotal")
 subtotal.innerHTML=total
-promobtn.onclick= function promoo(){
+promobtn.addEventListener("click",function(){
+    console.log("clicked");
     if(promo=="masai30"){
+    
         var discount=(total*30)/100
         var finalprice=total-((total*30)/100)
         var saved=total-finalprice;
@@ -19,4 +22,4 @@ promobtn.onclick= function promoo(){
     }else{
 alert("coupen invalid")
     }
-}
+})

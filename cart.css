@@ -1,0 +1,84 @@
+/* Styling for the category page. */
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+/*Global Styling*/
+
+* {
+  font-family: "PT Sans", sans-serif;
+}
+
+/*Header Styling*/
+
+header {
+    padding: 10px 16px;
+      background: white;
+      display: block;
+    }
+    
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%
+    }
+
+    #logo {
+        margin-left: 33%;
+    }
+
+    #securetransaction {
+        margin-left: 20%;
+        height: 50px;
+    }
+
+/*Banner Image*/
+
+#banner {
+    margin-top: 5%;
+    width: 100%;
+}
+
+/*Footer Styling*/
+
+#main{
+    margin: 10px auto;
+    background-color:black;
+    color:white;
+    width:100%;
+    display: flex;
+  }
+  #main a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+  }
+  #main ul{
+    margin-left: 3%;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom:50px;
+  
+  }
+
+  /*Middle Section Styling*/
+  section {
+min-height: 300px;
+  }
+
+  section > h2 {
+      text-align: center;
+  }
+
+  #continueshopping {
+      padding: 15px 45px 15px 45px;
+      background-color: white;
+      color: #ff5d3b;
+      border: 1px solid #ff5d3b;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  #centerbutton {
+      text-align: center;
+  }
