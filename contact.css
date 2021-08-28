@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+/*Global Styling*/
+
+* {
+  font-family: "PT Sans", sans-serif;
+}
+
+#main{
+    margin: 10px auto;
+    background-color:black;
+    color:white;
+    width:100%;
+    display: flex;
+}
+#main a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+#main ul{
+    margin-left: 3%;
+    line-height: 25px;
+
+}
+form input{
+    border: 1px solid #424242;
+    height: 25px;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+input[type="submit"]{
+    width: 82%;
+    height: 35px;
+    background-color: #F50057;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+#email{
+    width: 82%;
+}
+#nu{
+    width: 10%;
+}
+#tel{
+    margin-left: 0%;
+    width: 70%;
+}
+#comment{
+    width: 82%;
+    height: 60px;
+}
