@@ -22,7 +22,7 @@
       <i class="fas fa-id-badge"></i>
       <p>Contact Us</p>
       <i class="fas fa-sliders-h"></i>
-      <p>Category</p>
+      <p onclick="location.href='category.html'" style="cursor: pointer;">Category</p>
       <img
         class="heading"
         src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/sslogo.svg"
@@ -86,7 +86,7 @@
     <div id="grid1">
       <div><img src="./img/img1grid1.webp" /></div>
       <div><img src="./img/img2grid1.webp" /></div>
-      <div><img src="./img/img3grid1.webp" /></div>
+      <div onclick="location.href='category.html'"><img src="./img/img3grid1.webp" /></div>
       <div><img src="./img/img4grid1.webp" /></div>
     </div>
     <!--grid1-->
@@ -99,9 +99,42 @@
       <div><img src="./img/img4grid2.webp" /></div>
     </div>
     <!--grid2-->
-    <!--settimeout part-->
-    <img name="slide" style="width: 100%; height: 600px; margin-top: 100px" />
-    <!--settimeout part-->
+    <!--Slideshow part start-->
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="cadio1" />
+        <input type="radio" name="radio-btn" id="cadio2" />
+        <input type="radio" name="radio-btn" id="cadio3" />
+        <input type="radio" name="radio-btn" id="cadio4" />
+
+        <div class="slide first">
+          <img src="./img/sl2im4.webp" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./img/sl2im2.webp" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./img/sl2im3.webp" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./img/sl2im1.jpg" alt="" />
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+      <div class="navigation-manual">
+        <label for="cadio1" class="manual-btn"></label>
+        <label for="cadio2" class="manual-btn"></label>
+        <label for="cadio3" class="manual-btn"></label>
+        <label for="cadio4" class="manual-btn"></label>
+      </div>
+    </div>
+    <!--Slideshow part end-->
     <!--grid3-->
     <h1>BEST BARGAINS</h1>
     <div id="grid3">
@@ -111,7 +144,35 @@
       <div><img src="./img/img4grid3.webp" /></div>
     </div>
     <!--grid3-->
-    <!--grid4-->
+    <!--grid6-->
+    <h1>DEAL YOU CANT MISS</h1>
+    <div id="grid6">
+      <div><img src="./img/deal1.webp" /></div>
+      <div><img src="./img/deal2.webp" /></div>
+      <div><img src="./img/deal3.webp" /></div>
+      <div><img src="./img/deal4.webp" /></div>
+      <div><img src="./img/deal5.webp" /></div>
+      <div><img src="./img/deal6.webp" /></div>
+      <div><img src="./img/deal7.webp" /></div>
+      <div><img src="./img/deal8.webp" /></div>
+      <div><img src="./img/deal9.webp" /></div>
+      <div><img src="./img/deal10.webp" /></div>
+      <div><img src="./img/deal11.webp" /></div>
+      <div><img src="./img/deal12.webp" /></div>
+      <div><img src="./img/deal13.webp" /></div>
+      <div><img src="./img/deal14.webp" /></div>
+      <div><img src="./img/deal15.webp" /></div>
+      <div><img src="./img/deal16.jpg" /></div>
+      <div><img src="./img/deal17.webp" /></div>
+      <div><img src="./img/deal18.webp" /></div>
+      <div><img src="./img/deal19.webp" /></div>
+      <div><img src="./img/deal20.webp" /></div>
+      <div><img src="./img/deal21.webp" /></div>
+      <div><img src="./img/deal22.webp" /></div>
+      <div><img src="./img/deal23.webp" /></div>
+      <div><img src="./img/deal24.webp" /></div>
+    </div>
+    <!--grid6-->
     <h1>FLAUNT YOUR HERITAGE IN STYLE</h1>
     <div id="grid4">
       <div><img src="./img/img1grid4.webp" /></div>
@@ -119,7 +180,59 @@
       <div><img src="./img/img3grid4.webp" /></div>
       <div><img src="./img/img4grid4.webp" /></div>
     </div>
-    <!--grid4-->
+        <!--settimeout part-->
+        <img name="slide" style="width: 100%; height: 600px; margin-top: 100px" />
+        <!--settimeout part-->
+         <!--grid7-->
+    <h1>Top Catogories For Men</h1>
+    <div id="grid7">
+      <div><img src="./img/men1.jpg" /></div>
+      <div><img src="./img/men2.jpg" /></div>
+      <div><img src="./img/men3.jpg" /></div>
+      <div><img src="./img/men4.jpg" /></div>
+      <div><img src="./img/men5.jpg" /></div>
+      <div><img src="./img/men6.jpg" /></div>
+    </div>
+    <!--grid7-->
+       <!--grid9-->
+       <div style="background-color: #B2EBF2;">
+       <h1>Kid's Favourite Brands</h1>
+       <div id="grid9">
+         <div><img src="./img/g9i1.webp" /></div>
+         <div><img src="./img/g9i2.webp" /></div>
+         <div><img src="./img/g9i3.webp" /></div>
+         <div><img src="./img/g9i4.webp" /></div>
+         <div><img src="./img/g9i5.webp" /></div>
+         <div><img src="./img/g9i6.webp" /></div>
+       </div>
+      </div>
+       <!--grid9-->
+         <!--grid9-->
+         <div style="background-color: #BDBDBD;">
+         <h1>Homestop Category</h1>
+         <div id="grid9">
+           <div><img src="./img/g9i7.webp" /></div>
+           <div><img src="./img/g9i8.webp" /></div>
+           <div><img src="./img/g9i9.webp" /></div>
+           <div><img src="./img/g9i10.webp" /></div>
+           <div><img src="./img/g9i11.webp" /></div>
+           <div><img src="./img/g9i12.webp" /></div>
+         </div>
+         </div>
+         <!--grid9-->
+           <!--grid9-->
+           <div style="background-color: #B0BEC5;">
+       <h1>Home Top Brands</h1>
+       <div id="grid9">
+         <div><img src="./img/g9i13.webp" /></div>
+         <div><img src="./img/g9i14.webp" /></div>
+         <div><img src="./img/g9i15.webp" /></div>
+         <div><img src="./img/g9i16.webp" /></div>
+         <div><img src="./img/g9i17.webp" /></div>
+         <div><img src="./img/g9i18.webp" /></div>
+       </div>
+       </div>
+       <!--grid9-->
     <!--grid5-->
     <h1>CATEGORIES TO BAG</h1>
     <div id="grid5">
@@ -129,6 +242,17 @@
       <div><img src="./img/img4grid5.webp" /></div>
     </div>
     <!--grid5-->
+         <!--grid8-->
+         <h1>Kid's Fashion</h1>
+         <div id="grid8">
+           <div><img src="./img/kid1.webp" /></div>
+           <div><img src="./img/kid2.webp" /></div>
+           <div><img src="./img/kid3.webp" /></div>
+           <div><img src="./img/kid4.webp" /></div>
+           <div><img src="./img/kid5.webp" /></div>
+           <div><img src="./img/kid6.webp" /></div>
+         </div>
+         <!--grid8-->
     <!--lengthy img-->
     <div
       style="
@@ -171,9 +295,63 @@
         style="width: 20%; height: 100%; margin-left: 15%"
       />
     </div>
-    <div style="width: 100%;height: 300px;margin-top: 50px;">
-<img src="./img/f7.PNG" style="width: 100%;height: 100%;">
-    </div>
+    
+    <div id="main">
+      <ul style="list-style-type:none">
+         <p>CUSTOMER</p>
+          <li><a href="#">HELP/FAQS</a></li>
+          <li><a href="#">TRACK ORDER</a></li>
+          <li><a href="#">SIZE GUIDE</a></li>
+          <li><a href="#">BUYING GUIDE</a></li>
+          <li><a href="#">HOW DO I SHOP?</a></li>
+          <li><a href="#">HOW DO I PAY?</a></li>
+          <li><a href="#">FIND PLACES WE DELIVER</a></li>
+          <li><a href="#">STYLE HUB</a></li>
+
+      </ul>
+      <ul style="list-style-type:none">
+         <p>POLICIES</p>
+          <li><a href="#">TERMS OF USE</a></li>
+          <li><a href="#">PRIVACY</a></li>
+          <li><a href="#">DELIVERY POLICY</a></li>
+          <li><a href="#">EXCHANGES & RETURNS</a></li>
+      </ul>
+      <ul style="list-style-type:none">
+         <p>STORE AND SITES</p>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="#">CORPORATE SITE</a></li>
+          <li><a href="#">STORE LOCATOR</a></li>
+          <li><a href="#">CAREERS</a></li>
+          <li><a href="#">SITEMAP</a></li>
+      </ul>
+      <ul style="list-style-type:none">
+         <p>DELIGHTFUL PROGRAMS</p>
+          <li><a href="#">INSTANT GIFTING</a></li>
+          <li><a href="#">EXPRESS STORE PICK UP</a></li>
+      </ul>
+      <ul style="list-style-type:none">
+         <p>FIRST CITIZEN</p>
+          <li><a href="#">FIRST CITIZEN</a></li>
+      </ul>
+      <ul style="list-style-type:none">
+         <p>REACH US</p>
+          <li><a href="#">FOR ANY QUERY PLEASE EMAIL US</a></li>
+          <li><a href="#">customercare@shoppersstop.com</a></li>
+          <select style="width:260px;height:40px;background-color: black;color: white;border-color: white;margin-top: 30px;">
+             <option>BRANDS</option>
+             <option>SPYKAR</option>
+             <option>LIFE</option>
+             <option>ALLEN SOLLY</option>
+             <option>BUFFALO</option>
+             <option>CROCODILE</option>
+             <option>BEING HUMAN</option>
+             <option>NIKE</option>
+             <option>ADIDAS</option>
+             <option>ALCIS</option>
+             </select>
+      </ul>
+ </div>
     <!--Footer part-->
   </body>
 </html>

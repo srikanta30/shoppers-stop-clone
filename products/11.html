@@ -8,239 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/jpg" href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico"/>
-    <title>VAN HEUSEN Solid Cotton Slim Fit Mens T-Shirt</title>
-    <style>
-        * {
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-        }
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico" />
+    <title>VAN HEUSEN Stripes Cotton Regular Fit Mens T-Shirt | Shoppersstop.com</title>
+    <link href="singleprod.css" rel="stylesheet">
 
-        #navbar {
-            margin: auto;
-            width: 100%;
-            height: 80px;
-            position: fixed;
-            background-color: white;
-        }
-
-        #navbar div {
-            display: inline-flex;
-            flex-wrap: wrap;
-        }
-
-        #left a {
-            text-decoration: none;
-            color: #111111;
-            padding-left: 20px;
-            margin: 20px auto;
-
-        }
-
-        #right button {
-            background-color: white;
-            border: none;
-        }
-
-        #right button img {
-            width: 20px;
-            height: 20px;
-            float: right;
-        }
-
-        #right {
-            margin: 20px auto;
-            float: right;
-        }
-
-        #logo {
-            display: block;
-            margin-left: 150%;
-            margin-top: 12px;
-        }
-
-        #category {
-            width: 70%;
-            margin-left: 15%;
-            text-align: center;
-            display: inline-flex;
-            flex-wrap: wrap;
-            gap: 4%;
-            margin-top: 90px;
-        }
-
-        #direc {
-            margin:auto;
-            margin-top: 40px;
-            color: #777;
-            font-size: 12px;
-            width: 80%;
-            height: 40px;
-        }
-
-        #prodinfo #leftcont {
-            width: 18%;
-            height: 500px;
-            float: left;
-            margin-left: 8%;
-        }
-
-        #prodinfo #rightcont {
-            width: 58%;
-            float: right;
-        }
-
-        #leftcont #mainimg {
-            float: right;
-            width: 50%;
-            height: 60%;
-
-        }
-
-        #proddescription {
-            height: 600px;
-        }
-
-        #proddescription #leftcont {
-            position: fixed;
-        }
-
-        #rightcont {
-            overflow: scroll;
-            height: 500px;
-        }
-
-        #rightcont::-webkit-scrollbar {
-            display: none;
-        }
-
-        .collapsible {
-            background-color: white;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            text-align: center;
-        }
-
-        .active,
-        .collapsible:hover {
-            background-color: white;
-        }
-
-        .content {
-            padding: 0 18px;
-            display: none;
-            overflow: hidden;
-            background-color: white;
-        }
-
-        span {
-            float: right;
-        }
-
-        .sizebtn {
-            background-color: white;
-        }
-
-        #more {
-            width: 65%;
-            margin: 20px auto;
-            display: flex;
-            flex-direction: row;
-            gap: 80px;
-        }
-
-        .morebtn {
-            width: 290px;
-            height: 50px;
-            font-size: 16px;
-            text-align: center;
-            border-radius: 8px;
-            border: 2px solid rgb(245, 90, 90);
-            background-color: white;
-        }
-
-        #connect {
-            width: 60%;
-            margin: 20px auto;
-            display: flex;
-            flex-direction: row;
-            gap: 30%;
-        }
-
-        #gallery {
-            float: left;
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
-            overflow: scroll;
-        }
-
-        #gallery::-webkit-scrollbar {
-            display: none;
-        }
-
-        #gallery img {
-            width: 50px;
-            height: 70px;
-        }
-
-        #forbutton button {
-            width: 100px;
-            height: 40px;
-            border: 1px solid gray;
-            border-radius: 8px;
-            background-color: white;
-            font-size: 16px;
-            font-weight: bold;
-            margin: 20px auto;
-        }
-
-        #forbutton {
-            margin-top: 80px;
-
-        }
-
-        #cartbtn {
-            width: 300px;
-            height: 50px;
-            background-color: rgb(245, 90, 90);
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-            border-radius: 10px;
-            border: none;
-        }
-
-        #deliveryadd {
-            margin: 30px auto;
-        }
-
-        #empty {
-            margin-top: 10px;
-        }
-
-        .content div {
-            width: 30%;
-            margin: auto;
-            display: inline-flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .tinycont {
-            margin-top: 15px;
-            width: 25%;
-            height: 30px;
-            font-size: 10px;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body>
@@ -258,6 +30,7 @@
                     src="https://static.thenounproject.com/png/1788381-200.png"></button>
             <button type="button" onclick="location.href='cart.html'"><img
                     src="https://static.thenounproject.com/png/4175872-200.png" /></button>
+            <span class='badge badge-warning' id='lblCartCount'> </span>
             <button type="button" onclick="location.href='profile.html'"><img
                     src="https://static.thenounproject.com/png/3465520-200.png" /></button>
         </div>
@@ -275,7 +48,7 @@
         <p>DISCOVER</p>
     </div>
     <div id="direc">
-        Home > Men > Clothing > T-Shirts & Polos > STOP Solid Cotton Slim Fit Mens T-Shirt
+        Home > Men > Clothing > T-Shirts & Polos > VAN HEUSEN Stripes Cotton Regular Fit Mens T-Shirt
     </div>
     <div id="prodinfo">
 
@@ -289,11 +62,17 @@
                     src="https://sslimages.shoppersstop.com/sys-master/images/hd4/h6a/16181814853662/S21VHTSHWP08812_NAVY_alt2.jpg_230Wx334H" />
                 <img
                     src="https://sslimages.shoppersstop.com/sys-master/images/h30/h57/16180908720158/S21VHTSHWP08812_NAVY_alt3.jpg_230Wx334H" />
-                    <img src="https://sslimages.shoppersstop.com/sys-master/images/hca/heb/16182338420766/S21VHTSHWP08812_NAVY_alt4.jpg_230Wx334H"/>
+                <img
+                    src="https://sslimages.shoppersstop.com/sys-master/images/hca/heb/16182338420766/S21VHTSHWP08812_NAVY_alt4.jpg_230Wx334H" />
             </ul>
             <div id="mainimg">
                 <img src="https://sslimages.shoppersstop.com/sys-master/images/h18/he1/16180605255710/S21VHTSHWP08812_NAVY.jpg_1088Wx1632H"
                     id="proimg" />
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
                 <div style="font-size:10px">Click to zoom in the product</div>
             </div>
         </div>
@@ -312,8 +91,8 @@
                     <inline style="font-size:28px;">88</inline> People Have Viewed This Product Recently!
                 </p>
                 <div id="empty"></div>
-                <div style="font-weight: bold;">2 OFFERS|<inline style="font-size: 12px;">Buy any 1 of <a style="color:#111111"
-                            href="#">VAN HEUSEN Mens Wear</a> and Flat 50% Off</inline>
+                <div style="font-weight: bold;">2 OFFERS|<inline style="font-size: 12px;">Buy any 1 of <a
+                            style="color:#111111" href="#">VAN HEUSEN Mens Wear</a> and Flat 50% Off</inline>
                 </div>
 
                 <div id="empty"></div>
@@ -464,40 +243,82 @@
                 POLOS</a></button>
     </div>
     <div style="height: 150px; width: 100%; background-color: #f5f5f5">
-        <img
-          src="/img/f1.PNG"
-          style="float: left; margin-left: 7%; height: 100%; width: 20%"
-        />
-        <img
-          src="/img/f2.PNG"
-          style="float: left; margin-left: 10%; height: 100%; width: 30%"
-        />
-        <img
-          src="/img/f3.PNG"
-          style="float: left; margin-left: 15%; height: 100%; width: 10%"
-        />
-      </div>
-      <div style="height: 150px; width: 100%; margin-top: 80px">
-        <img
-          src="/img/f4.PNG"
-          style="width: 20%; height: 100%; margin-left: 7%"
-        />
-        <img
-          src="/img/f5.PNG"
-          style="width: 20%; height: 100%; margin-left: 15%"
-        />
-        <img
-          src="/img/f6.PNG"
-          style="width: 20%; height: 100%; margin-left: 15%"
-        />
-      </div>
-      <div style="width: 100%; height: 300px; margin-top: 50px">
-        <img src="/img/f7.PNG" style="width: 100%; height: 100%" />
-      </div>
+        <img src="/img/f1.PNG" style="float: left; margin-left: 7%; height: 100%; width: 20%" />
+        <img src="/img/f2.PNG" style="float: left; margin-left: 10%; height: 100%; width: 30%" />
+        <img src="/img/f3.PNG" style="float: left; margin-left: 15%; height: 100%; width: 10%" />
+    </div>
+    <div style="height: 150px; width: 100%; margin-top: 80px">
+        <img src="/img/f4.PNG" style="width: 20%; height: 100%; margin-left: 7%" />
+        <img src="/img/f5.PNG" style="width: 20%; height: 100%; margin-left: 15%" />
+        <img src="/img/f6.PNG" style="width: 20%; height: 100%; margin-left: 15%" />
+    </div>
+    <div id="main">
+        <ul style="list-style-type:none">
+            <p>CUSTOMER</p>
+            <li><a href="#">HELP/FAQS</a></li>
+            <li><a href="#">TRACK ORDER</a></li>
+            <li><a href="#">SIZE GUIDE</a></li>
+            <li><a href="#">BUYING GUIDE</a></li>
+            <li><a href="#">HOW DO I SHOP?</a></li>
+            <li><a href="#">HOW DO I PAY?</a></li>
+            <li><a href="#">FIND PLACES WE DELIVER</a></li>
+            <li><a href="#">STYLE HUB</a></li>
+
+        </ul>
+        <ul style="list-style-type:none">
+            <p>POLICIES</p>
+            <li><a href="#">TERMS OF USE</a></li>
+            <li><a href="#">PRIVACY</a></li>
+            <li><a href="#">DELIVERY POLICY</a></li>
+            <li><a href="#">EXCHANGES & RETURNS</a></li>
+        </ul>
+        <ul style="list-style-type:none">
+            <p>STORE AND SITES</p>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">CORPORATE SITE</a></li>
+            <li><a href="#">STORE LOCATOR</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">SITEMAP</a></li>
+        </ul>
+        <ul style="list-style-type:none">
+            <p>DELIGHTFUL PROGRAMS</p>
+            <li><a href="#">INSTANT GIFTING</a></li>
+            <li><a href="#">EXPRESS STORE PICK UP</a></li>
+        </ul>
+        <ul style="list-style-type:none">
+            <p>FIRST CITIZEN</p>
+            <li><a href="#">FIRST CITIZEN</a></li>
+        </ul>
+        <ul style="list-style-type:none">
+            <p>REACH US</p>
+            <li><a href="#">FOR ANY QUERY PLEASE EMAIL US</a></li>
+            <li><a href="#">customercare@shoppersstop.com</a></li>
+            <select
+                style="width:260px;height:40px;background-color: black;color: white;border-color: white;margin-top: 30px;">
+                <option>BRANDS</option>
+                <option>SPYKAR</option>
+                <option>LIFE</option>
+                <option>ALLEN SOLLY</option>
+                <option>BUFFALO</option>
+                <option>CROCODILE</option>
+                <option>BEING HUMAN</option>
+                <option>NIKE</option>
+                <option>ADIDAS</option>
+                <option>ALCIS</option>
+            </select>
+        </ul>
+    </div>
 </body>
 
 </html>
 <script>
+    window.addEventListener('load', function() {
+        let count = JSON.parse(localStorage.getItem('cart')).length;
+        let notify = document.getElementById('lblCartCount');
+        notify.innerText = count;
+        
+     })
 
     var sizebtn = document.getElementsByClassName("sizebtn");
     var btnid = document.getElementById('forbutton')
@@ -566,10 +387,10 @@
         });
     }
 
-    if (localStorage.getItem("cart") === null){
-      
-      localStorage.setItem("cart", "[]");
-  }
+    if (localStorage.getItem("cart") === null) {
+
+        localStorage.setItem("cart", "[]");
+    }
 
 
 
@@ -580,24 +401,42 @@
     let crtbtn = document.getElementById("cartbtn");
 
     crtbtn.onclick = function () {
-
+        let count = JSON.parse(localStorage.getItem('cart')).length;
         let tshirts = undefined;
-
         myTshirts.forEach(function (product, n) {
-
             if (n == 12) {
                 tshirts = product;
             }
-
-
-
         })
+
+        let notify = document.getElementById('lblCartCount');
+        count++;
+        notify.innerText = count;
 
         cart = JSON.parse(localStorage.getItem("cart"));
 
         cart.push(tshirts)
         localStorage.setItem("cart", JSON.stringify(cart));
+    }
+    // Get the modal
+    var modal = document.getElementById("myModal");
 
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("proimg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
     }
 
 

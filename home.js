@@ -8,6 +8,7 @@ setInterval(function(){
     }
 },3000)
 //scrollbar
+
 //settimeout
 var i=0;
 var time=1500;
@@ -45,3 +46,5 @@ function myFunction() {
   }
 }
 //header
+
+

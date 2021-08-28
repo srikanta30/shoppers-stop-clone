@@ -66,7 +66,8 @@ margin-left: 1%;
 }
 .div1 h3{
     float: left;
-    font-family:  'Open Sans-700', sans-serif
+    font-family:  'Open Sans-700', sans-serif;
+    padding: 5px;
 }
 .div1 p{
     float: left;
@@ -228,3 +229,20 @@ color: #757575;
 margin-top: 20px;
 }
 /*make payment*/
+#main{
+    margin: 10px auto;
+    background-color:black;
+    color:white;
+    width:100%;
+    display: flex;
+}
+#main a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+#main ul{
+    margin-left: 3%;
+    line-height: 25px;
+
+}

@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Online Shopping India - Shop for clothes, shoes, Bags, watches @ Shoppersstop.com</title>
     <link rel="shortcut icon" type="image/jpg" href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico"/>
     <link rel="stylesheet" href="signup_style.css">
     <link rel="shortcut icon" type="image/jpg" href="https://prodstatic.shoppersstop.com/_ui/responsive/theme-ssl/images/favicon.ico"/>
+    <style>
+        #message {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <header><img src="https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/sslogo.svg"/>
@@ -19,13 +24,14 @@
     <div class="sign-up-form">
         
         <div class="email">
-            <input type="email" name="signupEmail" id="signupemail" title="Email address" placeholder="Email or Mobile Number" autocomplete="off">
+            <input type="email" name="signupEmail" id="signupemail" title="Email address" placeholder="Email or Mobile Number" autocomplete="off"/>
         </div>
 
         <div class="paswrd">
-            <input type="password" name="signupPassword" id="signupPassword" title="Password" placeholder="Password" autocomplete="off" maxlength="15">
+            <input type="password" name="signupPassword" id="signupPassword" title="Password" placeholder="Password" autocomplete="off" maxlength="15"/>
         </div>
-        <button class="signinbtn">SIGN IN</button>
+        <p id="message"></p>
+        <button class="signinbtn" id="signinbutton" style="cursor: pointer;">SIGN IN</button>
     </div>
 
     <div>
@@ -47,5 +53,5 @@
     <div class="newaccount">Create a new account? <a href="sign_up.html">Sign Up</a></div>
 </body>
 </html>
-<!--- Linking script/signup_in.js file --->
-<script src="signup_in.js"></script>
+<!--- Linking script/signin.js file --->
+<script src="sign_in.js"></script>
