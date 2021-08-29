@@ -88,11 +88,11 @@
 
 - **Cart Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SingleProductPage_1.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Cart_Page.png?raw=true)
 
 - **Wishlist Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SingleProductPage_1.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Wishlist_Page.png?raw=true)
 
 - **Checkout Page**
 
