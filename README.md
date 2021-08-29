@@ -16,22 +16,22 @@
 
 ---
 
-### Pages :page_with_curl:
+### Pages & Features :page_with_curl:
 
-- `Home Page`
-- `Sign-Up Page`
-- `Sign-In Page`
-- `Sign-In with OTP Page`
-- `OTP Sent Page`
-- `Forgot Password Page`
-- `Product Category Page`
-- `Single Products Page`
-- `Cart Page`
-- `Wishlist Page`
-- `Checkout Page`
-- `Payment Page`
-- `Order Processing Page` 
-- `Order Successful Page`
+- `Home Page`: Carousel Slider using setTimeout.
+- `Sign-Up Page`: User details stored to local storage.
+- `Sign-In Page`: User authentication to check whether user email and password match with details existing in the database.
+- `Sign-In with OTP Page`: User authentication to check whether user phone number exists in the database.
+- `OTP Sent Page`: Random 6 digit OTP generated every time user lands on this page.
+- `Forgot Password Page`: Used to change their password in the database.
+- `Product Category Page`: Products created dynamically, with sorting and filtering features.
+- `Single Products Page`: Zoom in effect, users can check size and pin code availability.
+- `Cart Page`: User can see or remove products added in the cart.
+- `Wishlist Page`: Users can add or remove products to the wishlist.
+- `Checkout Page`: Users can add the delivery address.
+- `Payment Page`: Users can add their payment details and also avail for discount.
+- `Order Processing Page` : setTimout to emulate original payment flow.
+- `Order Successful Page` : cart gets empty automatically in local storage, once the user lands on this page.
 
 ---
 
