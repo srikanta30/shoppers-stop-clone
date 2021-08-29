@@ -24,7 +24,7 @@
 - `Sign-In with OTP Page`
 - `OTP Sent Page`
 - `Forgot Password Page`
-- `Product Page`
+- `Product Category Page`
 - `Single Products Page`
 - `Cart Page`
 - `Wishlist Page`
