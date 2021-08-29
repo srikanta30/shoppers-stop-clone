@@ -1,9 +1,9 @@
 ---
-# Shoppers-Stop
+# Shoppers Stop
 ---
 
 ---
-# Shoppers-Stop Clone :sunglasses:
+# Shoppers Stop Clone :sunglasses:
 ---
 
 
