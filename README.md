@@ -3,11 +3,17 @@
 ---
 
 ---
-# Welcome to our project :wave:
+# Welcome :wave:
+---
+
+### About this project: :raised_hands:
+
+> This is a team project, built by us in the Construct Week - Unit 2 at Masai School.
+
 ---
 
 
-### Team Members :man:
+### Our Team Members :heart:
 
 - **[Srikanta Banerjee](https://github.com/srikanta30)**
 - **[Nagendra Patil](https://github.com/NagendraPatil)**
@@ -16,7 +22,7 @@
 
 ---
 
-### Pages & Features :page_with_curl:
+### Pages & Features :point_down:
 
 - `Home Page`: Carousel Slider using setTimeout.
 - `Sign-Up Page`: User details stored to local storage.
@@ -111,11 +117,5 @@
 
 ![Order Successful Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_successful.png?raw=true)
 
-
----
-
-### About
-
-> We did this project during the contruct week of unit 2 within 6 days. We concentrated more on the design and front-end parts but also also add some functionality like Sign-Up, Sign-In, Sign-In with OTP, wishlist page, cart page, filter the products using sort by price,discount and refine search by brands, size, colors and price, add products to card and without Sign-In you can't buy the product.
 
 ---
