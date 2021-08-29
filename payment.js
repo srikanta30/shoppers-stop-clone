@@ -9,9 +9,14 @@ window.addEventListener("load", function(){
 window.addEventListener("load", function(){
     let total = document.getElementById("total");
     let carttotal = localStorage.getItem("carttotal");
-    total.innerHTML = `Payable Amount: ${carttotal}`;
+    total.style.fontFamily = "Verdana";
+    total.innerHTML = `Payable Amount: ₹${carttotal}`;
     let subtotal = document.getElementById("subtotal");
-    subtotal.innerText = carttotal;
+    subtotal.innerText = `₹${carttotal}`;
+    let payableamount = document.getElementById("payableamount");
+            payableamount.textContent = `₹${carttotal}`;
+            let totaldiscount = document.getElementById("totaldiscount");
+            totaldiscount.textContent = "₹0";
 })
 
 window.addEventListener("load", function(){
@@ -24,13 +29,13 @@ window.addEventListener("load", function(){
             let discount = Math.round(carttotal * .30)
             carttotal = Math.round(carttotal * .70);
             let total = document.getElementById("total");
-            total.innerHTML = `Payable Amount: ${carttotal}`;
+            total.innerHTML = `Payable Amount: ₹${carttotal}`;
             let coupon = document.getElementById("coupon");
             coupon.textContent = "30%";
             let payableamount = document.getElementById("payableamount");
-            payableamount.textContent = carttotal;
+            payableamount.textContent = `₹${carttotal}`;
             let totaldiscount = document.getElementById("totaldiscount");
-            totaldiscount.textContent = discount;
+            totaldiscount.textContent = `₹${discount}`;
 
 
         }

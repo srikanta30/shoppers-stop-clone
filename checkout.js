@@ -9,11 +9,11 @@ window.addEventListener("load", function(){
 window.addEventListener("load", function(){
     let total = document.getElementById("total");
     let carttotal = localStorage.getItem("carttotal");
-    total.innerText = carttotal;
+    total.innerText = `₹${carttotal}`;
     let subtotal = document.getElementById("subtotal");
-    subtotal.innerText = carttotal;
+    subtotal.innerText = `₹${carttotal}`;
     let youhavesaved = document.getElementById("youhavesaved");
-    youhavesaved.innerText = carttotal;
+    youhavesaved.innerText = `₹${carttotal}`;
 })
 
 
