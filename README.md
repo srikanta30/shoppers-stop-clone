@@ -23,8 +23,9 @@
 - `Sign-In Page`
 - `Forgot Password Page`
 - `Sign-In with OTP Page`
-- `Category Page`
-- `Products Page`
+- `Product Page`
+- `Single Products Page`
+- `Checkout Page`
 - `Payment Page`
 - `Order Processing Page` 
 - `Order Successful Page`
@@ -43,45 +44,55 @@
 
 - **Landing Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.46.01%20AM.png?raw=true)
-![homepage-body](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.50.02%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_1.png?raw=true)
+![homepage-body](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_2.png?raw=true)
 
-![homepage-body](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.50.06%20AM.png?raw=true)
-![homepage-body](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.50.14%20AM.png?raw=true)
+![homepage-body](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_3.png?raw=true)
+
 
 - **Sign-Up Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.46.15%20AM.png?raw=true)
-![homepage-body](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.48.08%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signup.png?raw=true)
+
 
 - **Sign-In Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.46.32%20AM.png?raw=true)
-![homepage-body](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.46.37%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signin.png?raw=true)
+
+- **Sign-In With OTP**
+
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signinwithotp.png?raw=true)
+
 
 - **Forgot Password Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.46.44%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Forgotpassword.png?raw=true)
 
-- **Category Page**
+- **Product Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.47.48%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_1.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_pricelowtohigh.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_refinesearch.png?raw=true)
 
-- **Products page**
+- **Single Products page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.47.53%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SingleProductPage_1.png?raw=true)
+
+- **Checkout Page**
+
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/CheckoutPage_1.png?raw=true)
 
 - **Payment Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.47.16%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/PaymentPage_couponcodeapplied.pngg?raw=true)
 
 - **Order Processing Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.47.40%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_processing.png?raw=true)
 
 - **Order Successful Page**
 
-![Landing Page](https://github.com/biswajitdas-007/pluralsight_clone/blob/master/Screenshots/Screenshot%202021-08-22%20at%2011.47.40%20AM.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_successful.png?raw=true)
 
 ---
 
