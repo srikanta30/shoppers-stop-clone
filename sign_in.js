@@ -12,7 +12,7 @@ let signinbutton = document.getElementById("signinbutton");
 signinbutton.addEventListener("click", function(){
     myUsers.forEach(function(user){
         
-    if (user.useremail == signinemail.value && user.userpassword == signinpassword.value){
+    if ((user.useremail == signinemail.value || user.usermobile == signinemail.value) && user.userpassword == signinpassword.value){
 
     window.location.href = "home.html"
     let currentuser = user.usermobile;
