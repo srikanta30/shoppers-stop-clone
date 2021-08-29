@@ -64,7 +64,7 @@
 <!--Make payment-->
 <div class="div6">
     <h3>3.MAKE PAYMENT</h3>
-    <h4 id="total">Payable Amount:</h4>
+    <h4 id="total"></h4>
 </div>
 <div style="clear: both;"></div>
 <div style="border:1px solid #E0E0E0;">
@@ -126,14 +126,14 @@
 </div>
 <!--Make payment-->
 <!-- Checkout -->
-<button class="contcheckout"><a href="orderprocessing.html">Continue to Checkout </a></button>
+<button class="contcheckout" style="cursor: pointer;" id="proceedtocheckout">Continue to Checkout</button>
 </div>
 <!--leftbigboxfinish-->
 <!--right big box start-->
 <div id="rightbox" style="float: left;width: 20%;margin-left: 5%;height: 430px;background-color: #EEEEEE;">
 <h3 style="font-family:Arial, Helvetica, sans-serif;margin-left: 15%;color: #424242;">ORDER SUMMARY</h3>
 <!--promo box-->
-<input id="promo" placeholder="Enter promo/coupen code" style="margin-left: 14%;border: #BDBDBD;height: 25px;">
+<input id="promo" placeholder="Enter promo/coupon code" style="margin-left: 14%;border: #BDBDBD;height: 25px;">
 <button id="applyapomo" style="border: orange;color: orange;background-color: #FFCCBC;height: 30px;cursor: pointer;">APPLY</button>
 <hr style="width: 80%;margin-top: 20px;"/>
 <!--promo box end-->
@@ -148,17 +148,17 @@
 <p style="float: right;margin-right: 5%;margin-top: -2px;">FREE</p>
 <div class="clear"></div>
 <p style="float: left;margin-top: -3px;margin-left: 5%;">Offer Discount</p>
-<p id="offer" style="float: right;margin-right: 5%;margin-top: -2px;">1555</p>
+<p id="offer" style="float: right;margin-right: 5%;margin-top: -2px; color: #64DD17;">ADDED</p>
 <div class="clear"></div>
-<p style="float: left;margin-top: -3px;margin-left: 5%;">Coupen Discount</p>
-<p id="coupen" style="float: right;margin-right:5%;margin-top: -2px;">1555</p>
+<p style="float: left;margin-top: -3px;margin-left: 5%;">Coupon Discount</p>
+<p id="coupon" style="float: right;margin-right:5%;margin-top: -2px;">0</p>
 <div class="clear"></div>
 <hr style="width: 80%;margin-top: 20px;"/>
 <h3 style="float: left;margin-top: 10px;margin-left: 5%;color: #424242;">PAYABLE AMOUNT</h3>
 <p id="payableamount" style="float: right;margin-right:5%;margin-top: 10px;">1555</p>
 <div class="clear"></div>
 <p style="float: left;margin-top: -3px;margin-left: 5%;">You have saved</p>
-<p id="coupen" style="float: right;margin-right:5%;margin-top: -2px;color: #64DD17;">1555</p>
+<p id="totaldiscount" style="float: right;margin-right:5%;margin-top: -2px;color: #64DD17;">1555</p>
 <div class="clear"></div>
 <!--offer box end-->
 </div>
@@ -199,3 +199,6 @@
 <!--footer-->
   </div>
 </html>
+
+<!--- Linking script/payment.js file --->
+<script src="payment.js"></script>
