@@ -92,7 +92,7 @@
 
 - **Wishlist Page**
 
-![Wishlist Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Wishlist_Page.png?raw=true)
+![Wishlist Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/wishlist.png?raw=true)
 
 - **Checkout Page**
 
