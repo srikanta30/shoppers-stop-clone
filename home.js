@@ -1,3 +1,4 @@
+//Home Page:
 window.addEventListener('load', function () {
   let count = JSON.parse(localStorage.getItem('cart')).length;
   let notify = document.getElementById('lblCartCount');
