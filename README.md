@@ -36,7 +36,8 @@
 
 - `HTML`
 - `CSS`
-- `Javascript`
+- `JavaScript`
+- `Local Storage`
 
 ---
 
