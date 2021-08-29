@@ -44,7 +44,7 @@
 <div class="div1">
     <i class="fas fa-check"></i>
     <h3>1.SIGN IN</h3>
-    <p id="email">huxlygerard5@gmail.com</p>
+    <p id="displayemail"></p>
     <button id="changebutton">CHANGE</button>
 </div>
 <div class="clear"></div>
@@ -65,8 +65,8 @@
     <h4 style="font-family: PTSans-Regular - 700;margin-left: 2%;font-size: 18px;">Add New Address</h4>
 <input id="firstname" type="text" placeholder="First Name" style="height: 25px;margin-left: 2%;width: 25%;"><input id="lastname" type="text" placeholder="Last Name" style="height: 25px;margin-left: 2%;width: 25%;">
 <br/>
-<input type="number" placeholder="+91" style="margin-left: 2%;margin-top: 20px;width: 5%;height: 25px;">
-<input id="phone" type="number" style="width: 45%;height: 25px;margin-left: 2%;margin-top: 20px;" placeholder="Phone Number">
+<input type="text" placeholder="+91" style="margin-left: 2%;margin-top: 20px;width: 5%;height: 25px;" value="+91">
+<input id="phone" type="tel" style="width: 45%;height: 25px;margin-left: 2%;margin-top: 20px;" placeholder="Phone Number">
 <br/>
 <input id="pin" type="text" placeholder="Pincode" style="margin-top: 20px;margin-left: 2%;width: 53%;height: 25px;">
 <br/>
@@ -80,7 +80,7 @@
 <br/>
 <div class="clear"></div>
 <input id="checkbox2" type="checkbox" style="margin-top: 30px;margin-left: 3%;float: left;"><p style="float: left;margin-top: 27px;margin-left: 2%;font-family: PTSans-Regular - 400;color: #FF8A65;">I agree to the terms and conditions</p>
-<button id="save" style="background-color: #FF1744;margin-left: 65%;color: white;border: none;border-radius: 5px;width: 20%;height: 60px;cursor: pointer;margin-top: 30px;"><a href="payment.html"> SAVE AND PROCEED </a></button>
+<button id="save" style="background-color: #FF1744;margin-left: 65%;color: white;border: none;border-radius: 5px;width: 20%;height: 60px;cursor: pointer;margin-top: 30px;"> SAVE AND PROCEED </button>
 </div>
 <div class="clear"></div>
 </div>
@@ -97,7 +97,7 @@
 <div id="rightbox" style="float: left;width: 20%;margin-left: 5%;height: 430px;background-color: #EEEEEE;">
 <h3 style="font-family:Arial, Helvetica, sans-serif;margin-left: 20%;color: #424242;">ORDER SUMMARY</h3>
 <!--promo box-->
-<input id="promo" placeholder="Enter promo/coupen code" style="margin-left: 12%;border: #BDBDBD;height: 25px;">
+<input id="promo" placeholder="Enter promo/coupon code" style="margin-left: 12%;border: #BDBDBD;height: 25px;">
 <button id="applypromo" style="border: orange;color: orange;background-color: #FFCCBC;height: 30px;cursor: pointer;">APPLY</button>
 <hr style="width: 80%;margin-top: 20px;"/>
 <!--promo box end-->
@@ -114,14 +114,14 @@
 <p style="float: left;margin-top: -3px;margin-left: 5%;">Offer Discount</p>
 <p id="offer" style="float: right;margin-right: 5%;margin-top: -2px;">N/A</p>
 <div class="clear"></div>
-<p style="float: left;margin-top: -3px;margin-left: 5%;">Coupen Discount</p>
-<p id="coupen" style="float: right;margin-right:5%;margin-top: -2px;"></p>
+<p style="float: left;margin-top: -3px;margin-left: 5%;">Coupon Discount</p>
+<p id="coupon" style="float: right;margin-right:5%;margin-top: -2px;"></p>
 <div class="clear"></div>
 <hr style="width: 80%;margin-top: 20px;"/>
 <h3 style="float: left;margin-top: 10px;margin-left: 5%;color: #424242;">PAYABLE AMOUNT</h3>
 <p id="payableamount" style="float: right;margin-right:5%;margin-top: 10px;"></p>
 <div class="clear"></div>
-<p style="float: left;margin-top: -3px;margin-left: 5%;">You have saved</p>
+<p style="float: left;margin-top: -3px;margin-left: 5%;" id="youhavesaved">You have saved</p>
 <p id="savedd" style="float: right;margin-right:5%;margin-top: -2px;color: #64DD17;"></p>
 <div class="clear"></div>
 <!--offer box end-->
@@ -216,3 +216,6 @@
 </div>
   <!--footer-->
 </html>
+
+<!--- Linking script/checkout.js file --->
+<script src="checkout.js"></script>
