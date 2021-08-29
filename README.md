@@ -116,4 +116,5 @@
 ### About
 
 > We did this project during the contruct week of unit 2 within 6 days. We focus more on the design and front-end parts but we also add some functionality like Sign-Up, Sign-In with OTP, wishlist page, cart page, filter the products using sort by price, refine search by brands, size, colors and price, add products to card and without Sign-In you can't buy the product.
+
 ---
