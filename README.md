@@ -21,10 +21,13 @@
 - `Home Page`
 - `Sign-Up Page`
 - `Sign-In Page`
+- `Send OTP Page`
 - `Forgot Password Page`
 - `Sign-In with OTP Page`
-- `Product Page`
+- `Category Page`
 - `Single Products Page`
+- `Cart Page`
+- `Wishlist Page`
 - `Checkout Page`
 - `Payment Page`
 - `Order Processing Page` 
