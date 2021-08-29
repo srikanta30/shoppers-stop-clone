@@ -20,7 +20,10 @@ signinbutton.addEventListener("click", function(){
 
     }
     })
-    error.innerText = "Invalid Email or Password";
+    setTimeout(function(){
+        error.innerText = "Invalid Email or Password";
+    }, 3000);
+    
 })
 
 
