@@ -32,6 +32,7 @@
 - `Payment Page`: Users can add their payment details and also avail for discount.
 - `Order Processing Page` : setTimout to emulate original payment flow.
 - `Order Successful Page` : cart gets empty automatically in local storage, once the user lands on this page.
+- `Additional Features` : Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
 
 ---
 
