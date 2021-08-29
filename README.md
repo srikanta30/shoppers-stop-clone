@@ -24,7 +24,7 @@
 - `Sign-In with OTP Page`: User authentication to check whether user phone number exists in the database.
 - `OTP Sent Page`: Random 6 digit OTP generated every time user lands on this page.
 - `Forgot Password Page`: Used to change their password in the database.
-- `Product Category Page`: Products created dynamically, with sorting and filtering features.
+- `Product Category Page`: Products created dynamically, with sorting and filtering features. Used event listener to dynamically change the image on hover.
 - `Single Products Page`: Zoom in effect, users can check size and pin code availability.
 - `Cart Page`: User can see or remove products added in the cart.
 - `Wishlist Page`: Users can add or remove products to the wishlist.
