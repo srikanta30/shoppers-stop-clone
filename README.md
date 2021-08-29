@@ -84,7 +84,7 @@
 
 - **Payment Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/PaymentPage_couponcodeapplied.pngg?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/PaymentPage_couponcodeapplied.png?raw=true)
 
 - **Order Processing Page**
 
