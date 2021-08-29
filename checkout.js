@@ -47,7 +47,13 @@ window.addEventListener("load", function(){
     let myUsers = localStorage.getItem("myUsers");
     myUsers = JSON.parse(myUsers);
     let currentuser = localStorage.getItem("currentuser");
-        let address = firstname.value + " " + lastname.value + " , Phone: " + phone.value + ", City: " + city.value + " , Address: " + address1.value + " , " + address2.value;
+    let address = firstname.value + " " + lastname.value + " , Phone: " + phone.value + ", City: " + city.value + " , Address: " + address1.value + " , " + address2.value;
+        
+    if (firstname.value == "" || lastname.value == "" || phone.value == "" || city.value == "" || address1.value == ""){
+            alert("Please Add Complete Address!")
+        }
+
+    else {
         myUsers.forEach(function(user){
             
             if (user.usermobile == currentuser){
@@ -57,5 +63,9 @@ window.addEventListener("load", function(){
             })
             localStorage.setItem("myUsers" , JSON.stringify(myUsers));
             window.location.href = "payment.html";
+    }
+            
+        
+        
     })
 })

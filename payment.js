@@ -50,7 +50,14 @@ window.addEventListener("load", function(){
 window.addEventListener("load", function(){
     let proceedtocheckout = document.getElementById("proceedtocheckout");
     proceedtocheckout.addEventListener("click", function(){
-        window.location.href = "orderprocessing.html";
+        let cvv = document.getElementById("cvv").value;
+        let cardnumber = document.getElementById("cardnumber").value;
+        if (cardnumber == "" || cvv == ""){
+            alert("Invalid Card Details");
+        }
+        else {
+            window.location.href = "orderprocessing.html";
+        }
     })
 
 })
