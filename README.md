@@ -98,10 +98,4 @@
 
 ![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_successful.png?raw=true)
 
----
 
-### About
-
-> We did this project within 6 days in our unit-2 construct week. We focus more on the design and front-end parts but we also add some cool functionality in our courses page where you can sort the courses according to your choice and also you can search them by name.
-
----
