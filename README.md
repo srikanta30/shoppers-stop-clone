@@ -1,13 +1,13 @@
 ---
-# Shoppers Stop
+# Shoppers Stop Clone
 ---
 
 ---
-# Shoppers Stop Clone :sunglasses:
+# Welcome to our project :wave:
 ---
 
 
-### Team Members
+### Team Members :man:
 
 - **[Srikanta Banerjee](https://github.com/srikanta30)**
 - **[Nagendra Patil](https://github.com/NagendraPatil)**
@@ -16,7 +16,7 @@
 
 ---
 
-### Pages
+### Pages :page_with_curl:
 
 - `Home Page`
 - `Sign-Up Page`
@@ -24,7 +24,7 @@
 - `Sign-In with OTP Page`
 - `OTP Sent Page`
 - `Forgot Password Page`
-- `Product Page`
+- `Product Category Page`
 - `Single Products Page`
 - `Cart Page`
 - `Wishlist Page`
@@ -35,7 +35,7 @@
 
 ---
 
-### Tech Stack Used
+### Tech Stack Used :wrench:
 
 - `HTML`
 - `CSS`
@@ -44,7 +44,7 @@
 
 ---
 
-### Screenshots
+### Screenshots :camera:
 
 - **Home Page**
 
