@@ -3,11 +3,21 @@
 ---
 
 ---
-# Welcome to our project :wave:
+# Welcome :wave:
 ---
 
+### About this project: :raised_hands:
 
-### Team Members :man:
+> This is a team project, built by us in the Construct Week - Unit 2 at Masai School.
+
+---
+
+#### Presentation Video: 
+- **[Checkout The Demo Video On LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6838016594384449536/)**
+
+
+
+### Our Team Members :heart:
 
 - **[Srikanta Banerjee](https://github.com/srikanta30)**
 - **[Nagendra Patil](https://github.com/NagendraPatil)**
@@ -16,22 +26,23 @@
 
 ---
 
-### Pages :page_with_curl:
+### Pages & Features :point_down:
 
-- `Home Page`
-- `Sign-Up Page`
-- `Sign-In Page`
-- `Sign-In with OTP Page`
-- `OTP Sent Page`
-- `Forgot Password Page`
-- `Product Category Page`
-- `Single Products Page`
-- `Cart Page`
-- `Wishlist Page`
-- `Checkout Page`
-- `Payment Page`
-- `Order Processing Page` 
-- `Order Successful Page`
+- `Home Page`: Carousel Slider using setTimeout.
+- `Sign-Up Page`: User details stored to local storage.
+- `Sign-In Page`: User authentication to check whether user email and password match with details existing in the database.
+- `Sign-In with OTP Page`: User authentication to check whether user phone number exists in the database.
+- `OTP Sent Page`: Random 6 digit OTP generated every time user lands on this page.
+- `Forgot Password Page`: Used to change their password in the database.
+- `Product Category Page`: Products created dynamically, with sorting and filtering features. Used event listener to dynamically change the image on hover.
+- `Single Products Page`: Zoom in effect, users can check size and pin code availability.
+- `Cart Page`: User can see or remove products added in the cart.
+- `Wishlist Page`: Users can add or remove products to the wishlist.
+- `Checkout Page`: Users can add the delivery address.
+- `Payment Page`: Users can add their payment details and also avail for discount.
+- `Order Processing Page` : setTimout to emulate original payment flow.
+- `Order Successful Page` : cart gets empty automatically in local storage, once the user lands on this page.
+- `Additional Features` : Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
 
 ---
 
@@ -40,7 +51,6 @@
 - `HTML`
 - `CSS`
 - `JavaScript`
-- `Local Storage`
 
 ---
 
@@ -48,73 +58,67 @@
 
 - **Home Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_1.png?raw=true)
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_2.png?raw=true)
+![Home Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_1.png?raw=true)
+![Home Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_2.png?raw=true)
 
 ![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_3.png?raw=true)
 
 
 - **Sign-Up Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signup.png?raw=true)
+![Sign Up Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signup.png?raw=true)
 
 
 - **Sign-In Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signin.png?raw=true)
+![Sign In Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signin.png?raw=true)
 
 - **Sign-In With OTP**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SignIn_withOTP.png?raw=true)
+![Sign In with OTP Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SignIn_withOTP.png?raw=true)
 
 - **OTP Sent Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SignIn_OTPsent.png?raw=true)
+![OTP Sent Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SignIn_OTPsent.png?raw=true)
 
 
 - **Forgot Password Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Forgotpassword.png?raw=true)
+![Forgot Password Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Forgotpassword.png?raw=true)
 
-- **Product Page**
+- **Product Category Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_1.png?raw=true)
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_pricelowtohigh.png?raw=true)
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_refinesearch.png?raw=true)
+![Product Category Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_1.png?raw=true)
+![Product Category Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_pricelowtohigh.png?raw=true)
+![Product Category Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_refinesearch.png?raw=true)
 
-- **Single Products page**
+- **Single Product page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SingleProductPage_1.png?raw=true)
+![Single Product Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SingleProductPage_1.png?raw=true)
 
 - **Cart Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Cart_Page.png?raw=true)
+![Cart Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/cart.png?raw=true)
 
 - **Wishlist Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Wishlist_Page.png?raw=true)
+![Wishlist Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/wishlist.png?raw=true)
 
 - **Checkout Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/CheckoutPage_1.png?raw=true)
+![Checkout Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/CheckoutPage_1.png?raw=true)
 
 - **Payment Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/PaymentPage_couponcodeapplied.png?raw=true)
+![Payment Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/PaymentPage_couponcodeapplied.png?raw=true)
 
 - **Order Processing Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_processing.png?raw=true)
+![Order Processing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_processing.png?raw=true)
 
 - **Order Successful Page**
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_successful.png?raw=true)
+![Order Successful Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_successful.png?raw=true)
 
-
----
-
-### About
-
-> We did this project during the contruct week of unit 2 within 6 days. We concentrated more on the design and front-end parts but also also add some functionality like Sign-Up, Sign-In, Sign-In with OTP, wishlist page, cart page, filter the products using sort by price,discount and refine search by brands, size, colors and price, add products to card and without Sign-In you can't buy the product.
 
 ---

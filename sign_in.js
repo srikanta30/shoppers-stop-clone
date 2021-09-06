@@ -12,15 +12,18 @@ let signinbutton = document.getElementById("signinbutton");
 signinbutton.addEventListener("click", function(){
     myUsers.forEach(function(user){
         
-    if (user.useremail == signinemail.value && user.userpassword == signinpassword.value){
+    if ((user.useremail == signinemail.value || user.usermobile == signinemail.value) && user.userpassword == signinpassword.value){
 
-    window.location.href = "home.html"
+    window.location.href = "checkout.html"
     let currentuser = user.usermobile;
     localStorage.setItem("currentuser", currentuser);
 
     }
     })
-    error.innerText = "Invalid Email or Password";
+    setTimeout(function(){
+        error.innerText = "Invalid Email or Password";
+    }, 3000);
+    
 })
 
 

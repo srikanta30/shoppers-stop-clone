@@ -1,3 +1,5 @@
+//Checkout Page:
+
 window.addEventListener("load", function(){
     if (localStorage.getItem("currentuser") === null) {
 
