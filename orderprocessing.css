@@ -1,0 +1,28 @@
+* {
+    font-family: "PT Sans", sans-serif;
+    }
+
+
+        h2{
+            margin-top: 2% !important;
+        }
+        h2, h4{
+            width: 300px;
+            margin: auto;
+            text-align: center;
+            margin-top: 4%;
+        }
+
+        p{
+            font-family: 'PT Sans', sans-serif;
+            text-align: center;
+        }
+
+        header{
+            margin-top: 10px;
+            text-align:center ;
+        }
+
+        header hr{
+          width: 100%;
+        }
