@@ -7,12 +7,122 @@
     font-family: "PT Sans", sans-serif;
   }
   
-  
+  #heading{
+    width: 100%;height: 60px;
+  }
+  #etho{
+    float:left;width: 25%;margin-left: 15%;height: 90%;margin-right: 2%
+  }
+  #hacko{
+    float: left;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: 10px;margin-left: 10px;
+  }
+  #donn{
+    width: 100%;height: 1000px;
+  }
+  #pir{
+    height: 100%;width: 50%;margin-left: 15%;float: left;
+  }
+  #krr{
+    border:1px solid #E0E0E0
+  }
+  #deliveryaddress{
+    height: 100%;border: none;width: 30%;background-color: whitesmoke;cursor: pointer;font-size: 20px;margin-left: 2%;font-family: 'PTSans-bold-400';
+  }
+  #expressstorepickup{
+    height: 100%;border: none;width: 30%;background-color: #E0E0E0;cursor: pointer;font-size: 20px;font-family: 'PTSans-bold-400'
+  }
+  #firstname{
+    height: 25px;margin-left: 2%;width: 25%;
+  }
+  #lastname{
+    height: 25px;margin-left: 2%;width: 25%;
+  }
+  #ppp{
+    margin-left: 2%;margin-top: 20px;width: 5%;height: 25px;
+  }
+  #phone{
+    width: 45%;height: 25px;margin-left: 2%;margin-top: 20px;
+  }
+  #pin{
+    margin-top: 20px;margin-left: 2%;width: 53%;height: 25px;
+  }
+  #city{
+    height: 35px;margin-left: 2%;width: 25%;margin-top: 20px;background-color: #BDBDBD;
+  }
+  #stt{
+    height: 35px;margin-left: 2%;width: 25%;margin-top: 20px;background-color: #E0E0E0;
+  }
+  #address1,#address2{
+    margin-top: 20px;margin-left: 2%;width: 53%;height: 25px;
+  }
+  #checkbox1{
+    margin-top: 30px;margin-left: 3%;float: left;
+  }
+  #banng{
+    float: left;margin-top: 27px;margin-left: 2%;font-family: PTSans-Regular - 400;
+  }
+  #checkbox2{
+    margin-top: 30px;margin-left: 3%;float: left;
+  }
+  #eww{
+    float: left;margin-top: 27px;margin-left: 2%;font-family: PTSans-Regular - 400;color: #FF8A65;
+  }
+  #save{
+    background-color: #FF1744;margin-left: 65%;color: white;border: none;border-radius: 5px;width: 20%;height: 60px;cursor: pointer;margin-top: 30px;
+  }
+  #rightbox{
+    float: left;width: 20%;margin-left: 5%;height: 430px;background-color: #EEEEEE;
+  }
+  #daaa{
+    font-family:Arial, Helvetica, sans-serif;margin-left: 20%;color: #424242;
+  }
+  #promo{
+    margin-left: 12%;border: #BDBDBD;height: 25px;
+  }
+  #applypromo{
+    border: orange;color: orange;background-color: #FFCCBC;height: 30px;cursor: pointer;
+  }
+  #hwrr{
+    width: 80%;margin-top: 20px;
+  }
+  #subtotal{
+    float: right;margin-right: 5%;font-family: Verdana;
+  }
+  #offer{
+    float: right;margin-right: 5%;margin-top: -2px;
+  }
+  #coupon{
+    float: right;margin-right:5%;margin-top: -2px;
+  }
+  #payableamount{
+    float: right;margin-right:5%;margin-top: 10px;
+  }
+  #youhavesaved{
+    float: left;margin-top: -3px;margin-left: 5%;font-family: Verdana;
+  }
+  #savedd{
+    float: right;margin-right:5%;margin-top: -2px;color: #64DD17;
+  }
+  .oluu{
+    float: left;margin-top: -3px;margin-left: 5%;
+  }
+  #yakk{
+    float: left;margin-top: 10px;margin-left: 5%;color: #424242;
+  }
+  #hyy{
+    float: left;margin-left: 5%;
+  }
+  #freew{
+    float: right;margin-right: 5%;margin-top: -2px;
+  }
+  #josee{
+    float: right;margin-right: 5%;margin-top: -2px;
+  }
 .heading{
     float: left;
     margin-left: 40%;
     width: 15%;
-    height: 100%;
+    height: 100%;cursor: pointer;
    
 }
 #heading .fas{
@@ -153,6 +263,7 @@ margin-top: 15px;
     }   
 
 /*make payment*/
+
 
 .div6{
     margin-top: 30px;
