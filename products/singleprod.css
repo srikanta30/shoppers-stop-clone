@@ -1,417 +1,490 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
 
-        * {
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-        }
+#navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: block;
+    height: 10vh;
+    /* display: grid; */
+    background-color: white;
+    /* grid-template-columns: 30% 30% 30%; */
+    /* grid-area: 'navbig'; */
+}
 
-        #navbar {
-            margin: auto;
-            width: 100%;
-            height: 80px;
-            position: fixed;
-            background-color: white;
-        }
+#left a {
+    text-decoration: none;
+    color: #111111;
+    padding-left: 5px;
+    margin: 20px auto;
+    cursor: pointer;
+    
+}
+#left a img{
+    width:16px;
+    height:8px;
+}
 
-        #navbar div {
-            display: inline-flex;
-            flex-wrap: wrap;
-        }
+#right button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
 
-        #left a {
-            text-decoration: none;
-            color: #111111;
-            padding-left: 20px;
-            margin: 20px auto;
-            cursor: pointer;
+#right button img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+}
 
-        }
+#navbar #left {
+    width: 100%;
+    /* margin-top: 5px; */
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    gap: auto;
+    background-color: white;
+    justify-content: center;
+    grid-area: navleft;
+}
 
-        #right button {
-            background-color: white;
-            border: none;
-            cursor: pointer;
+#navbar #right {
+    width: 100%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 52% 12% 12% 10%;
+    background-color: white;
+    gap: 3%;
+    justify-content: center;
+    grid-area: navright;
+}
 
-        }
+#navbar #left *,
+#navbar #right * {
+    height: 4vh;
+}
 
-        #right button img {
-            width: 30px;
-            height: 30px;
-            float: right;
-            cursor: pointer;
+#navbar #img {
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    grid-area: mainimg;
+}
 
-        }
+#prodinfo #leftcont {
+    display: grid;
+    grid-template-columns: 30% 69%;
+}
 
-        #right {
-            margin: 20px auto;
-            float: right;
-        }
+#gallery img {
+    height: 3%;
+    margin-top: 10px;
+}
 
-        #logo {
-            display: block;
-            margin-left: 150%;
-            margin-top: 12px;
-            cursor: pointer;
-        }
+#mainimg img {
+    width: 100%;
+}
 
-        #category {
-            width: 70%;
-            margin-left: 15%;
-            text-align: center;
-            display: inline-flex;
-            flex-wrap: wrap;
-            gap: 4%;
-            margin-top: 90px;
-            cursor: pointer;
-        }
+#rightcont {
+    overflow: scroll;
+    height: 500px;
+}
 
-        #direc {
-            margin: 30px auto;
-            color: #777;
-            font-size: 12px;
-            width: 100%;
-            height: 40px;
-            cursor: pointer;
-            margin-left: 10%;
-        }
+#rightcont::-webkit-scrollbar {
+    display: none;
+}
 
-        #prodinfo {
-            height: 600px;
-        }
+#gallery img {
+    width: 70px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform ease-in-out 0.3s;
+}
 
-        #prodinfo #leftcont {
-            width: 20%;
-            height: 500px;
-            float: left;
-            margin-left: 6%;
-        }
+#gallery img:hover {
+    transform: scale(5);
+}
 
-        #prodinfo #rightcont {
-            width: 56%;
-            float: right;
-        }
+#proimg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-        #leftcont #mainimg {
-            float: right;
-            width: 50%;
-            height: 60%;
+#proimg:hover {
+    opacity: 0.7;
+}
 
-        }
 
-        #proddescription {
-            height: 58%;
-        }
+/* The Modal (background) */
 
-        #proddescription #leftcont {
-            position: fixed;
-        }
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
 
-        #rightcont {
-            overflow: scroll;
-            height: 500px;
-        }
 
-        #rightcont::-webkit-scrollbar {
-            display: none;
-        }
+/* Modal Content (image) */
 
-        .collapsible {
-            background-color: white;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            text-align: center;
-        }
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
 
-        .active,
-        .collapsible:hover {
-            background-color: white;
-        }
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
 
-        .content {
-            padding: 0 18px;
-            display: none;
-            overflow: hidden;
-            background-color: white;
-        }
 
-        span {
-            float: right;
-        }
+/* Add Animation */
 
-        .sizebtn {
-            background-color: white;
-        }
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
 
-        #more {
-            width: 65%;
-            margin: 20px auto;
-            display: flex;
-            flex-direction: row;
-            gap: 80px;
-        }
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
 
-        .morebtn {
-            width: 290px;
-            height: 50px;
-            font-size: 16px;
-            text-align: center;
-            border-radius: 8px;
-            border: 2px solid rgb(245, 90, 90);
-            background-color: white;
-        }
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
 
-        #connect {
-            width: 60%;
-            margin: 20px auto;
-            display: flex;
-            flex-direction: row;
-            gap: 30%;
-        }
 
-        #gallery {
-            float: left;
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
-            overflow: scroll;
-        }
+/* The Close Button */
 
-        #gallery::-webkit-scrollbar {
-            display: none;
-        }
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
 
-        #gallery img {
-            width: 70px;
-            height: 80px;
-            cursor: pointer;
-            transition: transform ease-in-out 0.3s;
-        }
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
 
-        #gallery img:hover {
-            transform: scale(5);
-          }
+#forbutton button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px auto;
+    cursor: pointer;
+}
 
-        #forbutton button {
-            width: 100px;
-            height: 40px;
-            border: 1px solid gray;
-            border-radius: 8px;
-            background-color: white;
-            font-size: 16px;
-            font-weight: bold;
-            margin: 20px auto;
-            cursor: pointer;
-        }
+#forbutton {
+    margin-top: 80px;
+}
 
-        #forbutton {
-            margin-top: 80px;
+#cartbtn {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(245, 90, 90);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
 
-        }
+#wishlistbtn {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
 
-        #cartbtn {
-            width: 300px;
-            height: 50px;
-            background-color: rgb(245, 90, 90);
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-            border-radius: 10px;
-            border: none;
-            cursor: pointer;
-        }
-        #wishlistbtn {
-            width: 300px;
-            height: 50px;
-            background-color: black;
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-            border-radius: 10px;
-            border: none;
-            cursor: pointer;
-        }
+#deliveryadd {
+    margin: 30px auto;
+}
 
-        #deliveryadd {
-            margin: 30px auto;
-        }
+#empty {
+    margin-top: 10px;
+}
 
-        #empty {
-            margin-top: 10px;
-        }
+.content div {
+    width: 30%;
+    margin: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-        .content div {
-            width: 30%;
-            margin: auto;
-            display: inline-flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+.tinycont {
+    margin-top: 15px;
+    width: 25%;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+}
 
-        .tinycont {
-            margin-top: 15px;
-            width: 25%;
-            height: 30px;
-            font-size: 10px;
-            text-align: center;
-        }
+#main {
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+}
 
-        #main {
-            margin: 10px auto;
-            background-color: black;
-            color: white;
-            width: 100%;
-            display: flex;
-        }
+#main a {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
 
-        #main a {
-            text-decoration: none;
-            color: gray;
-            font-size: 12px;
-        }
+#main ul {
+    margin-left: 3%;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 
-        #main ul {
-            margin-left: 3%;
-            line-height: 25px;
-            margin-top: 40px;
-            margin-bottom: 50px;
+.collapsible {
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+}
 
-        }
+.active,
+.collapsible:hover {
+    background-color: white;
+}
 
-        #proimg {
-            border-radius: 5px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+}
 
-        #proimg:hover {
-            opacity: 0.7;
-        }
+span {
+    float: right;
+}
 
-        /* The Modal (background) */
-        .modal {
-            display: none;
-            /* Hidden by default */
-            position: fixed;
-            /* Stay in place */
-            z-index: 1;
-            /* Sit on top */
-            padding-top: 100px;
-            /* Location of the box */
-            left: 0;
-            top: 0;
-            width: 100%;
-            /* Full width */
-            height: 100%;
-            /* Full height */
-            overflow: auto;
-            /* Enable scroll if needed */
-            background-color: rgb(0, 0, 0);
-            /* Fallback color */
-            background-color: rgba(0, 0, 0, 0.9);
-            /* Black w/ opacity */
-        }
+.sizebtn {
+    background-color: white;
+}
 
-        /* Modal Content (image) */
-        .modal-content {
-            margin: auto;
-            display: block;
-            width: 80%;
-            max-width: 700px;
-        }
+#connect {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+}
 
-        /* Caption of Modal Image */
-        #caption {
-            margin: auto;
-            display: block;
-            width: 80%;
-            max-width: 700px;
-            text-align: center;
-            color: #ccc;
-            padding: 10px 0;
-            height: 150px;
-        }
+@media only screen and (min-width:800px) {
+    #navbar {
+        background-color: white;
+        display: grid;
+        grid-template-areas: 'navleft mainimg navright';
+    }
+    #category {
+        display: flex;
+        flex-direction: row;
+        gap: 1.4em;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        margin-top: 10.5vh;
+    }
+    #category p {
+        text-align: center;
+    }
+    #direc {
+        width: 90%;
+        margin: 15px auto;
+    }
+    #prodinfo {
+        display: grid;
+        grid-template-columns: 35% 62%;
+        gap: 3%;
+    }
+    #more {
+        width: 65%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+    .morebtn {
+        width: 290px;
+        height: 50px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 8px;
+        border: 2px solid rgb(245, 90, 90);
+        background-color: white;
+    }
+}
 
-        /* Add Animation */
-        .modal-content,
-        #caption {
-            -webkit-animation-name: zoom;
-            -webkit-animation-duration: 0.6s;
-            animation-name: zoom;
-            animation-duration: 0.6s;
-        }
+@media only screen and (max-width:799px) {
+    #mainimg,
+    #navleft,
+    #navright {
+        margin-top: 0px;
+    }
+    #navbar {
+        position: relative;
+        display: grid;
+        grid-template-areas: 'mainimg' 'navleft' 'navright';
+    }
+    #category {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+        text-align: center;
+        margin: auto;
+        margin-top: 21vh;
+    }
+    #category p {
+        border: 1px solid gray;
+        /* border-bottom: hidden; */
+        padding: 10px;
+        cursor: pointer;
+    }
+    #direc {
+        display: none;
+    }
+    #main {
+        margin: 10px auto;
+        background-color: black;
+        color: white;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 4%;
+    }
+    #main a {
+        text-decoration: none;
+        color: gray;
+        font-size: 12px;
+    }
+    #main ul {
+        margin-left: 3%;
+        line-height: 25px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        overflow:hidden;
+    }
 
-        @-webkit-keyframes zoom {
-            from {
-                -webkit-transform: scale(0)
-            }
+    #more {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+    }
+    .morebtn {
+        width: 290px;
+        height: 50px;
+        margin: 1px auto;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 8px;
+        border: 2px solid rgb(245, 90, 90);
+        background-color: white;
+    }
+}
 
-            to {
-                -webkit-transform: scale(1)
-            }
-        }
-
-        @keyframes zoom {
-            from {
-                transform: scale(0)
-            }
-
-            to {
-                transform: scale(1)
-            }
-        }
-
-        /* The Close Button */
-        .close {
-            position: absolute;
-            top: 15px;
-            right: 35px;
-            color: #f1f1f1;
-            font-size: 40px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: #bbb;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        /* 100% Image Width on Smaller Screens */
-        @media only screen and (max-width: 2000px) {
-            .modal-content {
-                width: 100%;
-            }
-        }
-        #lblCartCount {
+#lblCartCount {
     font-size: 14px;
     background: #ff0000;
     color: #fff;
     padding: 0 5px;
     vertical-align: top;
     margin-left: -8px;
-    height:20px;
-}
-.badge {
-  padding-left: 9px;
-  padding-right: 9px;
-  -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
-  border-radius: 9px;
+    height: 20px;
 }
 
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
 
 .badge-warning[href] {
-  background-color: #c67605;
+    background-color: #c67605;
 }
+
+
 /* for wish list */
+
 #lblwishlistCount {
     font-size: 14px;
     background: #ff0000;
@@ -419,17 +492,18 @@
     padding: 0 5px;
     vertical-align: top;
     margin-left: -8px;
-    height:20px;
-}
-.badgew {
-  padding-left: 9px;
-  padding-right: 9px;
-  -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
-  border-radius: 9px;
+    height: 20px;
 }
 
+.badgew {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
 
 .badge-warningw[href] {
-  background-color: #c67605;
+    background-color: #c67605;
 }
+
