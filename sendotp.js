@@ -5,7 +5,7 @@
 window.addEventListener("load", function(){
     let newotp = Math.floor(Math.random()*899999+100000);
 
-    console.log(newotp);
+    alert(newotp);
 
 
 let otpinput = document.getElementById("inputotp");
