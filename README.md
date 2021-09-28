@@ -121,7 +121,7 @@ First you have to have to go to the signup page and create a new account. Then y
 
 - **Payment Page**
 
-![Payment Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/PaymentPage_couponcodeapplied.png?raw=true)
+![Payment Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/Payment_page_couponapplied.png?raw=true)
 
 - **Order Processing Page**
 
