@@ -18,7 +18,7 @@
 ---
 
 #### Project Demo: 
-- **[Checkout The Live Project Demo](https://thirsty-panini-e2f95a.netlify.app/)**
+- **[Checkout The Live Project Demo](https://shoppersstopfrontend.netlify.app/)**
 
 
 
