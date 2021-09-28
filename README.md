@@ -1,5 +1,5 @@
 ---
-# Shoppers Stop Clone
+# Shoppers Stop Front-End Project
 ---
 
 ---
@@ -69,67 +69,67 @@ First you have to have to go to the signup page and create a new account. Then y
 
 - **Home Page**
 
-![Home Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_1.png?raw=true)
-![Home Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_2.png?raw=true)
+![Home Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/HomePage_1.png?raw=true)
+![Home Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/HomePage_2.png?raw=true)
 
-![Landing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/HomePage_3.png?raw=true)
+![Landing Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/HomePage_3.png?raw=true)
 
 
 - **Sign-Up Page**
 
-![Sign Up Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signup.png?raw=true)
+![Sign Up Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/Signup.png?raw=true)
 
 
 - **Sign-In Page**
 
-![Sign In Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Signin.png?raw=true)
+![Sign In Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/Signin.png?raw=true)
 
 - **Sign-In With OTP**
 
-![Sign In with OTP Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SignIn_withOTP.png?raw=true)
+![Sign In with OTP Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/SignIn_withOTP.png?raw=true)
 
 - **OTP Sent Page**
 
-![OTP Sent Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SignIn_OTPsent.png?raw=true)
+![OTP Sent Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/SignIn_OTPsent.png?raw=true)
 
 
 - **Forgot Password Page**
 
-![Forgot Password Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Forgotpassword.png?raw=true)
+![Forgot Password Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/Forgotpassword.png?raw=true)
 
 - **Product Category Page**
 
-![Product Category Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_1.png?raw=true)
-![Product Category Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_pricelowtohigh.png?raw=true)
-![Product Category Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/ProductPage_refinesearch.png?raw=true)
+![Product Category Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/ProductPage_1.png?raw=true)
+![Product Category Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/ProductPage_pricelowtohigh.png?raw=true)
+![Product Category Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/ProductPage_refinesearch.png?raw=true)
 
 - **Single Product page**
 
-![Single Product Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/SingleProductPage_1.png?raw=true)
+![Single Product Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/SingleProductPage_1.png?raw=true)
 
 - **Cart Page**
 
-![Cart Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/cart.png?raw=true)
+![Cart Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/cart.png?raw=true)
 
 - **Wishlist Page**
 
-![Wishlist Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/wishlist.png?raw=true)
+![Wishlist Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/wishlist.png?raw=true)
 
 - **Checkout Page**
 
-![Checkout Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/CheckoutPage_1.png?raw=true)
+![Checkout Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/CheckoutPage_1.png?raw=true)
 
 - **Payment Page**
 
-![Payment Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/PaymentPage_couponcodeapplied.png?raw=true)
+![Payment Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/PaymentPage_couponcodeapplied.png?raw=true)
 
 - **Order Processing Page**
 
-![Order Processing Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_processing.png?raw=true)
+![Order Processing Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/Order_processing.png?raw=true)
 
 - **Order Successful Page**
 
-![Order Successful Page](https://github.com/srikanta30/Shoppers-Stop/blob/main/Screenshots/Order_successful.png?raw=true)
+![Order Successful Page](https://github.com/srikanta30/Shoppers-Stop-Front-End/blob/main/Screenshots/Order_successful.png?raw=true)
 
 
 ---
