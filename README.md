@@ -12,13 +12,8 @@
 
 ---
 
-#### Presentation Video: 
-- **[Checkout The Demo Video On LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6838016594384449536/)**
-
----
-
 #### Project Demo: 
-- **[Checkout The Live Project Demo](https://shoppersstopfrontend.netlify.app/)**
+- **[Checkout The Live Project Demo]([https://shoppersstopfrontend.netlify.app/](https://shoppersstopclone.netlify.app/))**
 
 
 
